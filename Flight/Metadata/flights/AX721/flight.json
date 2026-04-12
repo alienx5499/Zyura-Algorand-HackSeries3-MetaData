@@ -71,20 +71,27 @@
     },
     {
       "pnr": "7EWJ26",
-      "policyId": "NA",
+      "policyId": 32811,
       "policyholder": "NA",
-      "wallet": "NA",
+      "wallet": "CYEK2KMRXB6CPEJE4LKKFGQENUS5YMVEA6OY3BFN5OTTKTUHU3ETF6JFCU",
       "passenger": {
+        "name": "Riley Ramirez",
         "fullName": "Riley Ramirez",
-        "dateOfBirth": "1969-06-21",
-        "documentId": "P7EWJ263",
-        "seat": "13B",
         "email": "riley.ramirez3@yahoo.com",
-        "phone": "+1-361-697-7480"
+        "phone": "+1-361-697-7480",
+        "phone_number": "+1-361-697-7480",
+        "date_of_birth": "1969-06-21",
+        "dateOfBirth": "1969-06-21",
+        "passport_number": "P7EWJ263",
+        "documentId": "P7EWJ263",
+        "address": null,
+        "seat": "13B",
+        "class": null,
+        "classType": null
       },
-      "nft_metadata_url": "NA",
-      "created_at": 1776024346,
-      "updated_at": 1776024346
+      "nft_metadata_url": "https://tinyurl.com/2dlks66l",
+      "created_at": 1776032831,
+      "updated_at": 1776032832
     },
     {
       "pnr": "Q42FRM",
@@ -156,5 +163,5 @@
     }
   ],
   "created_at": 1776024346,
-  "updated_at": 1776032338
+  "updated_at": 1776032832
 }
