@@ -1,28 +1,32 @@
 {
   "flight_number": "AP512",
   "date": "2026-07-20",
-  "scheduled_departure_unix": 1784511067,
-  "origin": "PHX",
-  "destination": "LAS",
+  "scheduled_departure_unix": 1784511060,
   "status": "scheduled",
-  "delay_minutes": 0,
   "pnrs": [
     {
       "pnr": "KQWQHQ",
-      "policyId": "NA",
+      "policyId": 25771,
       "policyholder": "NA",
-      "wallet": "NA",
+      "wallet": "CYEK2KMRXB6CPEJE4LKKFGQENUS5YMVEA6OY3BFN5OTTKTUHU3ETF6JFCU",
       "passenger": {
+        "name": "Mila Reed",
         "fullName": "Mila Reed",
-        "dateOfBirth": "1975-11-07",
-        "documentId": "PKQWQHQ0",
-        "seat": "19F",
         "email": "mila.reed0@example.com",
-        "phone": "+1-729-650-2249"
+        "phone": "+1-729-650-2249",
+        "phone_number": "+1-729-650-2249",
+        "date_of_birth": "1975-11-07",
+        "dateOfBirth": "1975-11-07",
+        "passport_number": "PKQWQHQ0",
+        "documentId": "PKQWQHQ0",
+        "address": null,
+        "seat": "19F",
+        "class": null,
+        "classType": null
       },
-      "nft_metadata_url": "NA",
-      "created_at": 1776024400,
-      "updated_at": 1776024400
+      "nft_metadata_url": "https://tinyurl.com/28fh7hns",
+      "created_at": 1776025785,
+      "updated_at": 1776025786
     },
     {
       "pnr": "47YLMA",
@@ -111,5 +115,5 @@
     }
   ],
   "created_at": 1776024400,
-  "updated_at": 1776024400
+  "updated_at": 1776025786
 }
