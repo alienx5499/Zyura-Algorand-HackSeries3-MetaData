@@ -1,0 +1,64 @@
+{
+  "flight_number": "YL609",
+  "date": "2026-08-31",
+  "scheduled_departure_unix": 1788164977,
+  "origin": "DEN",
+  "destination": "PHX",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "Y2EGGD",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Jordan Garcia",
+        "dateOfBirth": "1980-03-15",
+        "documentId": "PY2EGGD0",
+        "seat": "6A",
+        "email": "jordan.garcia0@outlook.com",
+        "phone": "+1-320-476-5062"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024385,
+      "updated_at": 1776024385
+    },
+    {
+      "pnr": "3BH9NW",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Quinn Nguyen",
+        "dateOfBirth": "1981-03-23",
+        "documentId": "P3BH9NW1",
+        "seat": "29B",
+        "email": "quinn.nguyen1@icloud.com",
+        "phone": "+1-750-648-4692"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024385,
+      "updated_at": 1776024385
+    },
+    {
+      "pnr": "9JF67F",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Zoe Ramirez",
+        "dateOfBirth": "1988-02-20",
+        "documentId": "P9JF67F2",
+        "seat": "18F",
+        "email": "zoe.ramirez2@outlook.com",
+        "phone": "+1-373-394-2378"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024385,
+      "updated_at": 1776024385
+    }
+  ],
+  "created_at": 1776024385,
+  "updated_at": 1776024385
+}

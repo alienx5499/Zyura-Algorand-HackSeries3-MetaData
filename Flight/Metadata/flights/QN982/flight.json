@@ -1,0 +1,30 @@
+{
+  "flight_number": "QN982",
+  "date": "2027-01-30",
+  "scheduled_departure_unix": 1801280589,
+  "origin": "ATL",
+  "destination": "DTW",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "H9JQHW",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Maya Walker",
+        "dateOfBirth": "2003-09-15",
+        "documentId": "PH9JQHW0",
+        "seat": "3F",
+        "email": "maya.walker0@outlook.com",
+        "phone": "+1-751-475-1552"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024403,
+      "updated_at": 1776024403
+    }
+  ],
+  "created_at": 1776024403,
+  "updated_at": 1776024403
+}

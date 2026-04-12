@@ -1,0 +1,64 @@
+{
+  "flight_number": "ZH874",
+  "date": "2026-05-03",
+  "scheduled_departure_unix": 1777823229,
+  "origin": "MIA",
+  "destination": "SLC",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "TK6GBR",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Mila Diaz",
+        "dateOfBirth": "1986-11-06",
+        "documentId": "PTK6GBR0",
+        "seat": "21F",
+        "email": "mila.diaz0@example.com",
+        "phone": "+1-251-414-3101"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024367,
+      "updated_at": 1776024367
+    },
+    {
+      "pnr": "9KTYS8",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Harper Ramirez",
+        "dateOfBirth": "1997-09-16",
+        "documentId": "P9KTYS81",
+        "seat": "8D",
+        "email": "harper.ramirez1@gmail.com",
+        "phone": "+1-489-227-1897"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024367,
+      "updated_at": 1776024367
+    },
+    {
+      "pnr": "S8EQNA",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Morgan Patel",
+        "dateOfBirth": "1969-08-25",
+        "documentId": "PS8EQNA2",
+        "seat": "15E",
+        "email": "morgan.patel2@gmail.com",
+        "phone": "+1-694-580-3243"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024367,
+      "updated_at": 1776024367
+    }
+  ],
+  "created_at": 1776024367,
+  "updated_at": 1776024367
+}

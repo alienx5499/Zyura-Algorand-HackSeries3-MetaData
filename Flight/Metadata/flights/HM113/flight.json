@@ -1,0 +1,47 @@
+{
+  "flight_number": "HM113",
+  "date": "2026-12-23",
+  "scheduled_departure_unix": 1798060443,
+  "origin": "LAS",
+  "destination": "JFK",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "N4NDQ5",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Logan Ramirez",
+        "dateOfBirth": "1997-07-26",
+        "documentId": "PN4NDQ50",
+        "seat": "11C",
+        "email": "logan.ramirez0@icloud.com",
+        "phone": "+1-618-714-8248"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024408,
+      "updated_at": 1776024408
+    },
+    {
+      "pnr": "BCDE6Q",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Harper Bennett",
+        "dateOfBirth": "1986-12-17",
+        "documentId": "PBCDE6Q1",
+        "seat": "4C",
+        "email": "harper.bennett1@outlook.com",
+        "phone": "+1-878-793-7243"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024408,
+      "updated_at": 1776024408
+    }
+  ],
+  "created_at": 1776024408,
+  "updated_at": 1776024408
+}

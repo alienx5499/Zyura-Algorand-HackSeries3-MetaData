@@ -1,0 +1,98 @@
+{
+  "flight_number": "TY804",
+  "date": "2026-07-15",
+  "scheduled_departure_unix": 1784118839,
+  "origin": "LAS",
+  "destination": "LAX",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "3NK5QG",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Caleb Ellis",
+        "dateOfBirth": "2004-02-09",
+        "documentId": "P3NK5QG0",
+        "seat": "15F",
+        "email": "caleb.ellis0@gmail.com",
+        "phone": "+1-363-716-9502"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024380,
+      "updated_at": 1776024380
+    },
+    {
+      "pnr": "ENKJCS",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Parker Reed",
+        "dateOfBirth": "2002-04-24",
+        "documentId": "PENKJCS1",
+        "seat": "15A",
+        "email": "parker.reed1@gmail.com",
+        "phone": "+1-709-720-5966"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024380,
+      "updated_at": 1776024380
+    },
+    {
+      "pnr": "R2BM7G",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Morgan Patel",
+        "dateOfBirth": "1963-08-25",
+        "documentId": "PR2BM7G2",
+        "seat": "1A",
+        "email": "morgan.patel2@outlook.com",
+        "phone": "+1-504-861-6018"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024380,
+      "updated_at": 1776024380
+    },
+    {
+      "pnr": "R7MMVT",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Morgan Diaz",
+        "dateOfBirth": "1965-04-20",
+        "documentId": "PR7MMVT3",
+        "seat": "23A",
+        "email": "morgan.diaz3@yahoo.com",
+        "phone": "+1-460-230-8910"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024380,
+      "updated_at": 1776024380
+    },
+    {
+      "pnr": "B68MKX",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Ethan Bennett",
+        "dateOfBirth": "1985-06-19",
+        "documentId": "PB68MKX4",
+        "seat": "16B",
+        "email": "ethan.bennett4@icloud.com",
+        "phone": "+1-453-759-9217"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024380,
+      "updated_at": 1776024380
+    }
+  ],
+  "created_at": 1776024380,
+  "updated_at": 1776024380
+}

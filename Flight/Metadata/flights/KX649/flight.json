@@ -1,0 +1,149 @@
+{
+  "flight_number": "KX649",
+  "date": "2027-01-19",
+  "scheduled_departure_unix": 1800332957,
+  "origin": "DTW",
+  "destination": "ORD",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "8W4456",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Morgan Walker",
+        "dateOfBirth": "1996-10-23",
+        "documentId": "P8W44560",
+        "seat": "10E",
+        "email": "morgan.walker0@example.com",
+        "phone": "+1-421-723-6927"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024410,
+      "updated_at": 1776024410
+    },
+    {
+      "pnr": "7D6FFK",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Riley Silva",
+        "dateOfBirth": "1984-07-12",
+        "documentId": "P7D6FFK1",
+        "seat": "18A",
+        "email": "riley.silva1@gmail.com",
+        "phone": "+1-828-705-1524"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024410,
+      "updated_at": 1776024410
+    },
+    {
+      "pnr": "MF4C62",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Morgan Diaz",
+        "dateOfBirth": "1979-01-27",
+        "documentId": "PMF4C622",
+        "seat": "11A",
+        "email": "morgan.diaz2@icloud.com",
+        "phone": "+1-259-374-3071"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024410,
+      "updated_at": 1776024410
+    },
+    {
+      "pnr": "FJSGMT",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Riley Silva",
+        "dateOfBirth": "1964-03-19",
+        "documentId": "PFJSGMT3",
+        "seat": "8B",
+        "email": "riley.silva3@outlook.com",
+        "phone": "+1-887-812-0210"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024410,
+      "updated_at": 1776024410
+    },
+    {
+      "pnr": "5FWK3Y",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Morgan Ellis",
+        "dateOfBirth": "1997-09-18",
+        "documentId": "P5FWK3Y4",
+        "seat": "4B",
+        "email": "morgan.ellis4@example.com",
+        "phone": "+1-297-200-5018"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024410,
+      "updated_at": 1776024410
+    },
+    {
+      "pnr": "F2MFQW",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Zoe Ellis",
+        "dateOfBirth": "2002-02-28",
+        "documentId": "PF2MFQW5",
+        "seat": "24B",
+        "email": "zoe.ellis5@icloud.com",
+        "phone": "+1-895-835-4611"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024410,
+      "updated_at": 1776024410
+    },
+    {
+      "pnr": "F3MEZB",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Riley Diaz",
+        "dateOfBirth": "1997-11-11",
+        "documentId": "PF3MEZB6",
+        "seat": "14C",
+        "email": "riley.diaz6@yahoo.com",
+        "phone": "+1-660-861-8635"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024410,
+      "updated_at": 1776024410
+    },
+    {
+      "pnr": "HR95JH",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Caleb Ramirez",
+        "dateOfBirth": "1999-10-02",
+        "documentId": "PHR95JH7",
+        "seat": "24F",
+        "email": "caleb.ramirez7@example.com",
+        "phone": "+1-237-357-7077"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024410,
+      "updated_at": 1776024410
+    }
+  ],
+  "created_at": 1776024410,
+  "updated_at": 1776024410
+}

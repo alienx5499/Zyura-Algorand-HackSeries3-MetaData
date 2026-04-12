@@ -1,0 +1,115 @@
+{
+  "flight_number": "KV800",
+  "date": "2027-02-19",
+  "scheduled_departure_unix": 1803061127,
+  "origin": "JFK",
+  "destination": "LAS",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "NG7DGQ",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Iris Diaz",
+        "dateOfBirth": "2005-06-25",
+        "documentId": "PNG7DGQ0",
+        "seat": "2F",
+        "email": "iris.diaz0@yahoo.com",
+        "phone": "+1-827-354-9709"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024374,
+      "updated_at": 1776024374
+    },
+    {
+      "pnr": "EUSHUK",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Mila Turner",
+        "dateOfBirth": "1988-02-24",
+        "documentId": "PEUSHUK1",
+        "seat": "18A",
+        "email": "mila.turner1@icloud.com",
+        "phone": "+1-394-376-3872"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024374,
+      "updated_at": 1776024374
+    },
+    {
+      "pnr": "QVASPA",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Taylor Patel",
+        "dateOfBirth": "1996-05-16",
+        "documentId": "PQVASPA2",
+        "seat": "11B",
+        "email": "taylor.patel2@icloud.com",
+        "phone": "+1-415-257-0786"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024374,
+      "updated_at": 1776024374
+    },
+    {
+      "pnr": "9VDNH7",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Emerson Reed",
+        "dateOfBirth": "1959-07-29",
+        "documentId": "P9VDNH73",
+        "seat": "5A",
+        "email": "emerson.reed3@yahoo.com",
+        "phone": "+1-283-255-7082"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024374,
+      "updated_at": 1776024374
+    },
+    {
+      "pnr": "3HWDVP",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Emerson Anderson",
+        "dateOfBirth": "1985-02-24",
+        "documentId": "P3HWDVP4",
+        "seat": "22C",
+        "email": "emerson.anderson4@icloud.com",
+        "phone": "+1-728-728-8547"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024374,
+      "updated_at": 1776024374
+    },
+    {
+      "pnr": "C68ARL",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Luca Campbell",
+        "dateOfBirth": "1997-02-23",
+        "documentId": "PC68ARL5",
+        "seat": "26A",
+        "email": "luca.campbell5@icloud.com",
+        "phone": "+1-676-792-1962"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024374,
+      "updated_at": 1776024374
+    }
+  ],
+  "created_at": 1776024374,
+  "updated_at": 1776024374
+}

@@ -1,0 +1,47 @@
+{
+  "flight_number": "WY413",
+  "date": "2026-05-02",
+  "scheduled_departure_unix": 1777696645,
+  "origin": "IAD",
+  "destination": "FLL",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "74LR3J",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Noah Foster",
+        "dateOfBirth": "1991-05-16",
+        "documentId": "P74LR3J0",
+        "seat": "20F",
+        "email": "noah.foster0@yahoo.com",
+        "phone": "+1-501-770-1001"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024361,
+      "updated_at": 1776024361
+    },
+    {
+      "pnr": "RJZ437",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Noah Walker",
+        "dateOfBirth": "1961-03-20",
+        "documentId": "PRJZ4371",
+        "seat": "18D",
+        "email": "noah.walker1@example.com",
+        "phone": "+1-734-497-4207"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024361,
+      "updated_at": 1776024361
+    }
+  ],
+  "created_at": 1776024361,
+  "updated_at": 1776024361
+}

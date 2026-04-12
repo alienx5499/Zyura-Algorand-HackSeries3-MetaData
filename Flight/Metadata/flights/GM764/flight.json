@@ -1,0 +1,47 @@
+{
+  "flight_number": "GM764",
+  "date": "2027-01-25",
+  "scheduled_departure_unix": 1800858851,
+  "origin": "BWI",
+  "destination": "SFO",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "NPU6DV",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Morgan Patel",
+        "dateOfBirth": "2002-11-14",
+        "documentId": "PNPU6DV0",
+        "seat": "15A",
+        "email": "morgan.patel0@yahoo.com",
+        "phone": "+1-605-857-0925"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024338,
+      "updated_at": 1776024338
+    },
+    {
+      "pnr": "B8UEXQ",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Quinn Turner",
+        "dateOfBirth": "1982-07-02",
+        "documentId": "PB8UEXQ1",
+        "seat": "3F",
+        "email": "quinn.turner1@icloud.com",
+        "phone": "+1-420-871-9815"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024338,
+      "updated_at": 1776024338
+    }
+  ],
+  "created_at": 1776024338,
+  "updated_at": 1776024338
+}

@@ -1,0 +1,115 @@
+{
+  "flight_number": "AP512",
+  "date": "2026-07-20",
+  "scheduled_departure_unix": 1784511067,
+  "origin": "PHX",
+  "destination": "LAS",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "KQWQHQ",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Mila Reed",
+        "dateOfBirth": "1975-11-07",
+        "documentId": "PKQWQHQ0",
+        "seat": "19F",
+        "email": "mila.reed0@example.com",
+        "phone": "+1-729-650-2249"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024400,
+      "updated_at": 1776024400
+    },
+    {
+      "pnr": "47YLMA",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Caleb Anderson",
+        "dateOfBirth": "2002-12-15",
+        "documentId": "P47YLMA1",
+        "seat": "16F",
+        "email": "caleb.anderson1@example.com",
+        "phone": "+1-871-330-0879"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024400,
+      "updated_at": 1776024400
+    },
+    {
+      "pnr": "37EASW",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Caleb Bennett",
+        "dateOfBirth": "1965-02-05",
+        "documentId": "P37EASW2",
+        "seat": "13B",
+        "email": "caleb.bennett2@gmail.com",
+        "phone": "+1-857-863-2670"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024400,
+      "updated_at": 1776024400
+    },
+    {
+      "pnr": "7LWM23",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Harper Nguyen",
+        "dateOfBirth": "1992-05-22",
+        "documentId": "P7LWM233",
+        "seat": "2C",
+        "email": "harper.nguyen3@yahoo.com",
+        "phone": "+1-502-477-2779"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024400,
+      "updated_at": 1776024400
+    },
+    {
+      "pnr": "YZPQ6C",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Mila Nguyen",
+        "dateOfBirth": "1999-06-20",
+        "documentId": "PYZPQ6C4",
+        "seat": "11F",
+        "email": "mila.nguyen4@gmail.com",
+        "phone": "+1-464-538-7941"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024400,
+      "updated_at": 1776024400
+    },
+    {
+      "pnr": "GQP6MK",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Noah Ramirez",
+        "dateOfBirth": "1974-05-05",
+        "documentId": "PGQP6MK5",
+        "seat": "18E",
+        "email": "noah.ramirez5@outlook.com",
+        "phone": "+1-474-591-2957"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024400,
+      "updated_at": 1776024400
+    }
+  ],
+  "created_at": 1776024400,
+  "updated_at": 1776024400
+}

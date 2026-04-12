@@ -1,0 +1,30 @@
+{
+  "flight_number": "EA998",
+  "date": "2027-02-08",
+  "scheduled_departure_unix": 1802130116,
+  "origin": "ATL",
+  "destination": "SEA",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "P65NW8",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Quinn Ramirez",
+        "dateOfBirth": "1967-03-16",
+        "documentId": "PP65NW80",
+        "seat": "13B",
+        "email": "quinn.ramirez0@example.com",
+        "phone": "+1-499-309-6031"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024339,
+      "updated_at": 1776024339
+    }
+  ],
+  "created_at": 1776024339,
+  "updated_at": 1776024339
+}

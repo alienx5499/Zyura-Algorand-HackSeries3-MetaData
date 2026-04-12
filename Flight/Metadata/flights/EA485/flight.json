@@ -1,0 +1,30 @@
+{
+  "flight_number": "EA485",
+  "date": "2026-04-25",
+  "scheduled_departure_unix": 1777083022,
+  "origin": "SFO",
+  "destination": "IAD",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "Q4YJSY",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Mila Nguyen",
+        "dateOfBirth": "1979-04-25",
+        "documentId": "PQ4YJSY0",
+        "seat": "20D",
+        "email": "mila.nguyen0@example.com",
+        "phone": "+1-493-684-8936"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024387,
+      "updated_at": 1776024387
+    }
+  ],
+  "created_at": 1776024387,
+  "updated_at": 1776024387
+}

@@ -1,0 +1,47 @@
+{
+  "flight_number": "GX752",
+  "date": "2027-01-18",
+  "scheduled_departure_unix": 1800241130,
+  "origin": "MSP",
+  "destination": "IAD",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "D8XGA3",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Caleb Diaz",
+        "dateOfBirth": "1977-10-03",
+        "documentId": "PD8XGA30",
+        "seat": "17A",
+        "email": "caleb.diaz0@gmail.com",
+        "phone": "+1-771-341-0578"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024378,
+      "updated_at": 1776024378
+    },
+    {
+      "pnr": "TWDULV",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Quinn Ramirez",
+        "dateOfBirth": "1972-12-09",
+        "documentId": "PTWDULV1",
+        "seat": "24B",
+        "email": "quinn.ramirez1@icloud.com",
+        "phone": "+1-544-763-2258"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024378,
+      "updated_at": 1776024378
+    }
+  ],
+  "created_at": 1776024378,
+  "updated_at": 1776024378
+}

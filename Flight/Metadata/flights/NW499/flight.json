@@ -1,0 +1,47 @@
+{
+  "flight_number": "NW499",
+  "date": "2026-05-26",
+  "scheduled_departure_unix": 1779780086,
+  "origin": "ORD",
+  "destination": "BOS",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "JXTAP7",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Iris Reed",
+        "dateOfBirth": "2005-11-06",
+        "documentId": "PJXTAP70",
+        "seat": "30F",
+        "email": "iris.reed0@example.com",
+        "phone": "+1-350-316-8086"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024368,
+      "updated_at": 1776024368
+    },
+    {
+      "pnr": "MX3Y4N",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Maya Garcia",
+        "dateOfBirth": "1999-11-28",
+        "documentId": "PMX3Y4N1",
+        "seat": "23F",
+        "email": "maya.garcia1@gmail.com",
+        "phone": "+1-691-562-5323"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024368,
+      "updated_at": 1776024368
+    }
+  ],
+  "created_at": 1776024368,
+  "updated_at": 1776024368
+}

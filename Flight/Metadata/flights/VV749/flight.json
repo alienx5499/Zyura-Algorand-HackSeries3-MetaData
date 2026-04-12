@@ -1,0 +1,30 @@
+{
+  "flight_number": "VV749",
+  "date": "2027-01-28",
+  "scheduled_departure_unix": 1801177705,
+  "origin": "BOS",
+  "destination": "DTW",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "TNRAVL",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Taylor Campbell",
+        "dateOfBirth": "2003-08-10",
+        "documentId": "PTNRAVL0",
+        "seat": "4B",
+        "email": "taylor.campbell0@yahoo.com",
+        "phone": "+1-403-438-5808"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024355,
+      "updated_at": 1776024355
+    }
+  ],
+  "created_at": 1776024355,
+  "updated_at": 1776024355
+}

@@ -1,0 +1,47 @@
+{
+  "flight_number": "YE403",
+  "date": "2026-12-11",
+  "scheduled_departure_unix": 1797003429,
+  "origin": "BWI",
+  "destination": "LAX",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "YTVNEH",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Maya Bennett",
+        "dateOfBirth": "1985-06-10",
+        "documentId": "PYTVNEH0",
+        "seat": "7B",
+        "email": "maya.bennett0@icloud.com",
+        "phone": "+1-326-473-4754"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024401,
+      "updated_at": 1776024401
+    },
+    {
+      "pnr": "KQ2AVT",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Noah Reed",
+        "dateOfBirth": "1972-08-14",
+        "documentId": "PKQ2AVT1",
+        "seat": "12B",
+        "email": "noah.reed1@outlook.com",
+        "phone": "+1-885-715-6372"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024401,
+      "updated_at": 1776024401
+    }
+  ],
+  "created_at": 1776024401,
+  "updated_at": 1776024401
+}

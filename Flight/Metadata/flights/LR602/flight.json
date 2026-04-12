@@ -1,0 +1,64 @@
+{
+  "flight_number": "LR602",
+  "date": "2027-03-20",
+  "scheduled_departure_unix": 1805542739,
+  "origin": "SAN",
+  "destination": "JFK",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "U2FLC3",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Mila Bennett",
+        "dateOfBirth": "1990-08-05",
+        "documentId": "PU2FLC30",
+        "seat": "14F",
+        "email": "mila.bennett0@yahoo.com",
+        "phone": "+1-286-263-6547"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024394,
+      "updated_at": 1776024394
+    },
+    {
+      "pnr": "6GUGVS",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Mila Ramirez",
+        "dateOfBirth": "1968-12-06",
+        "documentId": "P6GUGVS1",
+        "seat": "29C",
+        "email": "mila.ramirez1@outlook.com",
+        "phone": "+1-821-410-0771"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024394,
+      "updated_at": 1776024394
+    },
+    {
+      "pnr": "DJG4G2",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Logan Silva",
+        "dateOfBirth": "1991-12-30",
+        "documentId": "PDJG4G22",
+        "seat": "24E",
+        "email": "logan.silva2@gmail.com",
+        "phone": "+1-311-751-0745"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024394,
+      "updated_at": 1776024394
+    }
+  ],
+  "created_at": 1776024394,
+  "updated_at": 1776024394
+}

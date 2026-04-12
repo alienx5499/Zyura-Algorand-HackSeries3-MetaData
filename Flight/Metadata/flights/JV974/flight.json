@@ -1,0 +1,30 @@
+{
+  "flight_number": "JV974",
+  "date": "2026-11-03",
+  "scheduled_departure_unix": 1793672820,
+  "origin": "IAD",
+  "destination": "SLC",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "9JN8EM",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Ethan Silva",
+        "dateOfBirth": "1962-01-26",
+        "documentId": "P9JN8EM0",
+        "seat": "14E",
+        "email": "ethan.silva0@example.com",
+        "phone": "+1-715-317-0325"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024419,
+      "updated_at": 1776024419
+    }
+  ],
+  "created_at": 1776024419,
+  "updated_at": 1776024419
+}

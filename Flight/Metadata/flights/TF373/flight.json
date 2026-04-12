@@ -1,0 +1,30 @@
+{
+  "flight_number": "TF373",
+  "date": "2026-12-06",
+  "scheduled_departure_unix": 1796518570,
+  "origin": "CLT",
+  "destination": "DTW",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "3UTZAV",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Harper Walker",
+        "dateOfBirth": "2002-09-17",
+        "documentId": "P3UTZAV0",
+        "seat": "21C",
+        "email": "harper.walker0@example.com",
+        "phone": "+1-380-833-9299"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024420,
+      "updated_at": 1776024420
+    }
+  ],
+  "created_at": 1776024420,
+  "updated_at": 1776024420
+}

@@ -1,0 +1,47 @@
+{
+  "flight_number": "AE343",
+  "date": "2026-12-29",
+  "scheduled_departure_unix": 1798565014,
+  "origin": "IAD",
+  "destination": "SAN",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "F2NNSJ",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Noah Garcia",
+        "dateOfBirth": "1956-03-14",
+        "documentId": "PF2NNSJ0",
+        "seat": "20E",
+        "email": "noah.garcia0@example.com",
+        "phone": "+1-281-336-8316"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024342,
+      "updated_at": 1776024342
+    },
+    {
+      "pnr": "ZTQUBE",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Maya Ellis",
+        "dateOfBirth": "1968-10-07",
+        "documentId": "PZTQUBE1",
+        "seat": "9A",
+        "email": "maya.ellis1@yahoo.com",
+        "phone": "+1-397-814-5765"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024342,
+      "updated_at": 1776024342
+    }
+  ],
+  "created_at": 1776024342,
+  "updated_at": 1776024342
+}

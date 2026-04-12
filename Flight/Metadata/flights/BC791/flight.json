@@ -1,0 +1,98 @@
+{
+  "flight_number": "BC791",
+  "date": "2026-07-04",
+  "scheduled_departure_unix": 1783169667,
+  "origin": "SLC",
+  "destination": "LAX",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "HZEYEL",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Jordan Bennett",
+        "dateOfBirth": "1972-12-14",
+        "documentId": "PHZEYEL0",
+        "seat": "14F",
+        "email": "jordan.bennett0@icloud.com",
+        "phone": "+1-554-740-2999"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024376,
+      "updated_at": 1776024376
+    },
+    {
+      "pnr": "J58KFX",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Luca Anderson",
+        "dateOfBirth": "2005-04-22",
+        "documentId": "PJ58KFX1",
+        "seat": "17F",
+        "email": "luca.anderson1@outlook.com",
+        "phone": "+1-885-305-4985"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024376,
+      "updated_at": 1776024376
+    },
+    {
+      "pnr": "9P76MX",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Noah Nguyen",
+        "dateOfBirth": "1998-09-10",
+        "documentId": "P9P76MX2",
+        "seat": "12D",
+        "email": "noah.nguyen2@icloud.com",
+        "phone": "+1-871-498-4386"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024376,
+      "updated_at": 1776024376
+    },
+    {
+      "pnr": "FKPG57",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Avery Anderson",
+        "dateOfBirth": "1970-10-18",
+        "documentId": "PFKPG573",
+        "seat": "13D",
+        "email": "avery.anderson3@example.com",
+        "phone": "+1-495-586-8739"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024376,
+      "updated_at": 1776024376
+    },
+    {
+      "pnr": "QCTGN2",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Iris Anderson",
+        "dateOfBirth": "1975-09-30",
+        "documentId": "PQCTGN24",
+        "seat": "8B",
+        "email": "iris.anderson4@outlook.com",
+        "phone": "+1-655-343-1563"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024376,
+      "updated_at": 1776024376
+    }
+  ],
+  "created_at": 1776024376,
+  "updated_at": 1776024376
+}

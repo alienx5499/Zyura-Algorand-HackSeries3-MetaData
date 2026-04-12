@@ -1,0 +1,47 @@
+{
+  "flight_number": "SU123",
+  "date": "2026-08-03",
+  "scheduled_departure_unix": 1785766348,
+  "origin": "LAX",
+  "destination": "SEA",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "9GPPBX",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Quinn Patel",
+        "dateOfBirth": "1996-06-26",
+        "documentId": "P9GPPBX0",
+        "seat": "4F",
+        "email": "quinn.patel0@gmail.com",
+        "phone": "+1-359-342-5703"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024397,
+      "updated_at": 1776024397
+    },
+    {
+      "pnr": "GEP2BR",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Parker Thompson",
+        "dateOfBirth": "1993-09-25",
+        "documentId": "PGEP2BR1",
+        "seat": "22F",
+        "email": "parker.thompson1@example.com",
+        "phone": "+1-791-599-3953"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024397,
+      "updated_at": 1776024397
+    }
+  ],
+  "created_at": 1776024397,
+  "updated_at": 1776024397
+}

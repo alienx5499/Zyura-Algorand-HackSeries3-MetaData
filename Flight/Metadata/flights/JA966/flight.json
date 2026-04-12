@@ -1,0 +1,115 @@
+{
+  "flight_number": "JA966",
+  "date": "2027-03-04",
+  "scheduled_departure_unix": 1804142490,
+  "origin": "SEA",
+  "destination": "SAN",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "TJT6QC",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Avery Ramirez",
+        "dateOfBirth": "1975-03-28",
+        "documentId": "PTJT6QC0",
+        "seat": "19E",
+        "email": "avery.ramirez0@yahoo.com",
+        "phone": "+1-237-876-3432"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024414,
+      "updated_at": 1776024414
+    },
+    {
+      "pnr": "83A89H",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Noah Reed",
+        "dateOfBirth": "1972-03-14",
+        "documentId": "P83A89H1",
+        "seat": "27D",
+        "email": "noah.reed1@outlook.com",
+        "phone": "+1-611-214-7589"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024414,
+      "updated_at": 1776024414
+    },
+    {
+      "pnr": "23WPBL",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Logan Silva",
+        "dateOfBirth": "1987-11-29",
+        "documentId": "P23WPBL2",
+        "seat": "10F",
+        "email": "logan.silva2@icloud.com",
+        "phone": "+1-808-218-2635"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024414,
+      "updated_at": 1776024414
+    },
+    {
+      "pnr": "SF8KDY",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Avery Silva",
+        "dateOfBirth": "1984-12-26",
+        "documentId": "PSF8KDY3",
+        "seat": "23F",
+        "email": "avery.silva3@outlook.com",
+        "phone": "+1-752-298-8116"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024414,
+      "updated_at": 1776024414
+    },
+    {
+      "pnr": "Z5UYCY",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Harper Walker",
+        "dateOfBirth": "1974-01-29",
+        "documentId": "PZ5UYCY4",
+        "seat": "5E",
+        "email": "harper.walker4@icloud.com",
+        "phone": "+1-365-577-1319"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024414,
+      "updated_at": 1776024414
+    },
+    {
+      "pnr": "JYURWZ",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Taylor Turner",
+        "dateOfBirth": "1978-10-29",
+        "documentId": "PJYURWZ5",
+        "seat": "25F",
+        "email": "taylor.turner5@outlook.com",
+        "phone": "+1-476-351-5369"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024414,
+      "updated_at": 1776024414
+    }
+  ],
+  "created_at": 1776024414,
+  "updated_at": 1776024414
+}

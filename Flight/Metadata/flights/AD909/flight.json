@@ -1,0 +1,30 @@
+{
+  "flight_number": "AD909",
+  "date": "2026-05-19",
+  "scheduled_departure_unix": 1779224154,
+  "origin": "ORD",
+  "destination": "SFO",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "SN6FM3",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Iris Campbell",
+        "dateOfBirth": "2002-04-02",
+        "documentId": "PSN6FM30",
+        "seat": "19A",
+        "email": "iris.campbell0@gmail.com",
+        "phone": "+1-329-371-6879"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024405,
+      "updated_at": 1776024405
+    }
+  ],
+  "created_at": 1776024405,
+  "updated_at": 1776024405
+}

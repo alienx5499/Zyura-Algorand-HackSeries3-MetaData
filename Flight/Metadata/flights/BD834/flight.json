@@ -1,0 +1,30 @@
+{
+  "flight_number": "BD834",
+  "date": "2027-04-11",
+  "scheduled_departure_unix": 1807455465,
+  "origin": "DFW",
+  "destination": "DEN",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "LGKUAT",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Morgan Silva",
+        "dateOfBirth": "1997-10-31",
+        "documentId": "PLGKUAT0",
+        "seat": "19C",
+        "email": "morgan.silva0@yahoo.com",
+        "phone": "+1-333-210-5862"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024370,
+      "updated_at": 1776024370
+    }
+  ],
+  "created_at": 1776024370,
+  "updated_at": 1776024370
+}

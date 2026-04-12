@@ -1,0 +1,47 @@
+{
+  "flight_number": "HU983",
+  "date": "2027-03-26",
+  "scheduled_departure_unix": 1806034011,
+  "origin": "SEA",
+  "destination": "LAX",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "845N6C",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Iris Nguyen",
+        "dateOfBirth": "1972-01-13",
+        "documentId": "P845N6C0",
+        "seat": "18E",
+        "email": "iris.nguyen0@gmail.com",
+        "phone": "+1-886-829-6058"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024358,
+      "updated_at": 1776024358
+    },
+    {
+      "pnr": "JRLXEZ",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Caleb Turner",
+        "dateOfBirth": "1991-11-08",
+        "documentId": "PJRLXEZ1",
+        "seat": "14F",
+        "email": "caleb.turner1@gmail.com",
+        "phone": "+1-389-557-7443"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024358,
+      "updated_at": 1776024358
+    }
+  ],
+  "created_at": 1776024358,
+  "updated_at": 1776024358
+}

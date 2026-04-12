@@ -1,0 +1,30 @@
+{
+  "flight_number": "TW554",
+  "date": "2026-07-20",
+  "scheduled_departure_unix": 1784511608,
+  "origin": "BWI",
+  "destination": "JFK",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "KAV6C9",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Morgan Garcia",
+        "dateOfBirth": "1963-07-06",
+        "documentId": "PKAV6C90",
+        "seat": "14E",
+        "email": "morgan.garcia0@icloud.com",
+        "phone": "+1-741-874-2088"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024341,
+      "updated_at": 1776024341
+    }
+  ],
+  "created_at": 1776024341,
+  "updated_at": 1776024341
+}

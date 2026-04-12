@@ -1,0 +1,30 @@
+{
+  "flight_number": "MK849",
+  "date": "2026-07-10",
+  "scheduled_departure_unix": 1783676312,
+  "origin": "ATL",
+  "destination": "DFW",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "3NQKLX",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Avery Bennett",
+        "dateOfBirth": "1993-03-03",
+        "documentId": "P3NQKLX0",
+        "seat": "17B",
+        "email": "avery.bennett0@example.com",
+        "phone": "+1-460-309-4687"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024382,
+      "updated_at": 1776024382
+    }
+  ],
+  "created_at": 1776024382,
+  "updated_at": 1776024382
+}

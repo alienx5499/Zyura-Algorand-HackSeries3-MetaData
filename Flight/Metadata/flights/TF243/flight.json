@@ -1,0 +1,98 @@
+{
+  "flight_number": "TF243",
+  "date": "2026-07-17",
+  "scheduled_departure_unix": 1784324178,
+  "origin": "BWI",
+  "destination": "IAD",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "ECL4K5",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Riley Diaz",
+        "dateOfBirth": "1998-06-26",
+        "documentId": "PECL4K50",
+        "seat": "22D",
+        "email": "riley.diaz0@yahoo.com",
+        "phone": "+1-519-455-9838"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024429,
+      "updated_at": 1776024429
+    },
+    {
+      "pnr": "3E3T6T",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Noah Anderson",
+        "dateOfBirth": "1986-07-19",
+        "documentId": "P3E3T6T1",
+        "seat": "5A",
+        "email": "noah.anderson1@example.com",
+        "phone": "+1-581-288-8334"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024429,
+      "updated_at": 1776024429
+    },
+    {
+      "pnr": "M8FZMB",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Iris Silva",
+        "dateOfBirth": "2002-10-21",
+        "documentId": "PM8FZMB2",
+        "seat": "20C",
+        "email": "iris.silva2@outlook.com",
+        "phone": "+1-614-762-1698"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024429,
+      "updated_at": 1776024429
+    },
+    {
+      "pnr": "6R9S27",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Parker Silva",
+        "dateOfBirth": "1989-03-27",
+        "documentId": "P6R9S273",
+        "seat": "19E",
+        "email": "parker.silva3@yahoo.com",
+        "phone": "+1-445-528-2077"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024429,
+      "updated_at": 1776024429
+    },
+    {
+      "pnr": "25PFD5",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Logan Reed",
+        "dateOfBirth": "1957-07-24",
+        "documentId": "P25PFD54",
+        "seat": "29F",
+        "email": "logan.reed4@outlook.com",
+        "phone": "+1-422-841-5354"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024429,
+      "updated_at": 1776024429
+    }
+  ],
+  "created_at": 1776024429,
+  "updated_at": 1776024429
+}

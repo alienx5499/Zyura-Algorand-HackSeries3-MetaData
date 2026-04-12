@@ -1,0 +1,81 @@
+{
+  "flight_number": "BT459",
+  "date": "2027-03-25",
+  "scheduled_departure_unix": 1805943061,
+  "origin": "CLT",
+  "destination": "SFO",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "GC3PED",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Parker Bennett",
+        "dateOfBirth": "1986-06-08",
+        "documentId": "PGC3PED0",
+        "seat": "2B",
+        "email": "parker.bennett0@outlook.com",
+        "phone": "+1-488-625-7531"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024334,
+      "updated_at": 1776024334
+    },
+    {
+      "pnr": "YMS62A",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Emerson Bennett",
+        "dateOfBirth": "1956-01-05",
+        "documentId": "PYMS62A1",
+        "seat": "3B",
+        "email": "emerson.bennett1@example.com",
+        "phone": "+1-781-891-8574"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024334,
+      "updated_at": 1776024334
+    },
+    {
+      "pnr": "3L8V8B",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Taylor Bennett",
+        "dateOfBirth": "1966-08-23",
+        "documentId": "P3L8V8B2",
+        "seat": "15E",
+        "email": "taylor.bennett2@example.com",
+        "phone": "+1-642-497-6198"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024334,
+      "updated_at": 1776024334
+    },
+    {
+      "pnr": "HZN4DL",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Caleb Turner",
+        "dateOfBirth": "1993-03-04",
+        "documentId": "PHZN4DL3",
+        "seat": "12B",
+        "email": "caleb.turner3@yahoo.com",
+        "phone": "+1-535-889-5837"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024334,
+      "updated_at": 1776024334
+    }
+  ],
+  "created_at": 1776024334,
+  "updated_at": 1776024334
+}

@@ -1,0 +1,47 @@
+{
+  "flight_number": "JU416",
+  "date": "2026-12-15",
+  "scheduled_departure_unix": 1797374622,
+  "origin": "JFK",
+  "destination": "BOS",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "DP6TRG",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Avery Foster",
+        "dateOfBirth": "1960-02-28",
+        "documentId": "PDP6TRG0",
+        "seat": "27A",
+        "email": "avery.foster0@yahoo.com",
+        "phone": "+1-514-576-7949"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024351,
+      "updated_at": 1776024351
+    },
+    {
+      "pnr": "ZACBJU",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Riley Patel",
+        "dateOfBirth": "1966-06-15",
+        "documentId": "PZACBJU1",
+        "seat": "16E",
+        "email": "riley.patel1@outlook.com",
+        "phone": "+1-201-715-2852"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024351,
+      "updated_at": 1776024351
+    }
+  ],
+  "created_at": 1776024351,
+  "updated_at": 1776024351
+}

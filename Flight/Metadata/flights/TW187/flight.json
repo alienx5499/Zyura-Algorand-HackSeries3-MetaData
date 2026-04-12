@@ -1,0 +1,98 @@
+{
+  "flight_number": "TW187",
+  "date": "2026-11-20",
+  "scheduled_departure_unix": 1795182876,
+  "origin": "SLC",
+  "destination": "PHX",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "UAS5F9",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Emerson Ellis",
+        "dateOfBirth": "1965-08-09",
+        "documentId": "PUAS5F90",
+        "seat": "23E",
+        "email": "emerson.ellis0@yahoo.com",
+        "phone": "+1-531-795-7131"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024428,
+      "updated_at": 1776024428
+    },
+    {
+      "pnr": "VJ4QJ5",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Harper Silva",
+        "dateOfBirth": "1966-11-30",
+        "documentId": "PVJ4QJ51",
+        "seat": "18F",
+        "email": "harper.silva1@gmail.com",
+        "phone": "+1-217-375-7697"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024428,
+      "updated_at": 1776024428
+    },
+    {
+      "pnr": "DP5HU4",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Caleb Thompson",
+        "dateOfBirth": "1964-04-18",
+        "documentId": "PDP5HU42",
+        "seat": "1E",
+        "email": "caleb.thompson2@outlook.com",
+        "phone": "+1-647-610-5167"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024428,
+      "updated_at": 1776024428
+    },
+    {
+      "pnr": "66Z8BW",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Taylor Thompson",
+        "dateOfBirth": "1991-08-07",
+        "documentId": "P66Z8BW3",
+        "seat": "16F",
+        "email": "taylor.thompson3@gmail.com",
+        "phone": "+1-848-365-1156"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024428,
+      "updated_at": 1776024428
+    },
+    {
+      "pnr": "RFM2MZ",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Mila Walker",
+        "dateOfBirth": "1989-12-13",
+        "documentId": "PRFM2MZ4",
+        "seat": "22F",
+        "email": "mila.walker4@outlook.com",
+        "phone": "+1-429-506-5035"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024428,
+      "updated_at": 1776024428
+    }
+  ],
+  "created_at": 1776024428,
+  "updated_at": 1776024428
+}

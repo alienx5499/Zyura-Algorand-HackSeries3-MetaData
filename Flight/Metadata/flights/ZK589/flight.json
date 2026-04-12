@@ -1,0 +1,166 @@
+{
+  "flight_number": "ZK589",
+  "date": "2026-11-29",
+  "scheduled_departure_unix": 1795965848,
+  "origin": "PHX",
+  "destination": "BOS",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "KQWAK9",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Maya Walker",
+        "dateOfBirth": "1976-12-09",
+        "documentId": "PKQWAK90",
+        "seat": "22D",
+        "email": "maya.walker0@gmail.com",
+        "phone": "+1-312-510-2946"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024413,
+      "updated_at": 1776024413
+    },
+    {
+      "pnr": "MRJ5BX",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Zoe Thompson",
+        "dateOfBirth": "1977-09-23",
+        "documentId": "PMRJ5BX1",
+        "seat": "21D",
+        "email": "zoe.thompson1@outlook.com",
+        "phone": "+1-215-533-4124"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024413,
+      "updated_at": 1776024413
+    },
+    {
+      "pnr": "Q6H37C",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Zoe Nguyen",
+        "dateOfBirth": "1966-09-28",
+        "documentId": "PQ6H37C2",
+        "seat": "20C",
+        "email": "zoe.nguyen2@outlook.com",
+        "phone": "+1-881-472-6014"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024413,
+      "updated_at": 1776024413
+    },
+    {
+      "pnr": "LZDESZ",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Avery Foster",
+        "dateOfBirth": "1971-05-17",
+        "documentId": "PLZDESZ3",
+        "seat": "24E",
+        "email": "avery.foster3@example.com",
+        "phone": "+1-413-752-3741"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024413,
+      "updated_at": 1776024413
+    },
+    {
+      "pnr": "NDF987",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Logan Garcia",
+        "dateOfBirth": "1968-02-05",
+        "documentId": "PNDF9874",
+        "seat": "13D",
+        "email": "logan.garcia4@icloud.com",
+        "phone": "+1-441-205-7615"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024413,
+      "updated_at": 1776024413
+    },
+    {
+      "pnr": "CQPD25",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Iris Foster",
+        "dateOfBirth": "1993-07-05",
+        "documentId": "PCQPD255",
+        "seat": "17F",
+        "email": "iris.foster5@outlook.com",
+        "phone": "+1-603-258-2626"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024413,
+      "updated_at": 1776024413
+    },
+    {
+      "pnr": "M2UCXX",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Morgan Walker",
+        "dateOfBirth": "1985-05-18",
+        "documentId": "PM2UCXX6",
+        "seat": "15F",
+        "email": "morgan.walker6@icloud.com",
+        "phone": "+1-279-351-9488"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024413,
+      "updated_at": 1776024413
+    },
+    {
+      "pnr": "RTFAEB",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Avery Reed",
+        "dateOfBirth": "1990-02-27",
+        "documentId": "PRTFAEB7",
+        "seat": "16D",
+        "email": "avery.reed7@yahoo.com",
+        "phone": "+1-633-770-9616"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024413,
+      "updated_at": 1776024413
+    },
+    {
+      "pnr": "DFMWY8",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Iris Nguyen",
+        "dateOfBirth": "1982-01-14",
+        "documentId": "PDFMWY88",
+        "seat": "6C",
+        "email": "iris.nguyen8@outlook.com",
+        "phone": "+1-691-535-1619"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024413,
+      "updated_at": 1776024413
+    }
+  ],
+  "created_at": 1776024413,
+  "updated_at": 1776024413
+}

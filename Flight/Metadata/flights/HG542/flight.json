@@ -1,0 +1,166 @@
+{
+  "flight_number": "HG542",
+  "date": "2026-04-25",
+  "scheduled_departure_unix": 1777097350,
+  "origin": "SLC",
+  "destination": "JFK",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "9LJP4Y",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Avery Bennett",
+        "dateOfBirth": "1969-05-07",
+        "documentId": "P9LJP4Y0",
+        "seat": "23D",
+        "email": "avery.bennett0@example.com",
+        "phone": "+1-516-786-3151"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024353,
+      "updated_at": 1776024353
+    },
+    {
+      "pnr": "EUP2VR",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Caleb Campbell",
+        "dateOfBirth": "1992-04-08",
+        "documentId": "PEUP2VR1",
+        "seat": "13F",
+        "email": "caleb.campbell1@outlook.com",
+        "phone": "+1-659-371-1594"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024353,
+      "updated_at": 1776024353
+    },
+    {
+      "pnr": "T2CG95",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Ethan Reed",
+        "dateOfBirth": "1995-08-19",
+        "documentId": "PT2CG952",
+        "seat": "20F",
+        "email": "ethan.reed2@icloud.com",
+        "phone": "+1-506-407-0519"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024353,
+      "updated_at": 1776024353
+    },
+    {
+      "pnr": "5FW55S",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Jordan Campbell",
+        "dateOfBirth": "2000-06-11",
+        "documentId": "P5FW55S3",
+        "seat": "10A",
+        "email": "jordan.campbell3@example.com",
+        "phone": "+1-307-489-6134"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024353,
+      "updated_at": 1776024353
+    },
+    {
+      "pnr": "C8CTD6",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Quinn Silva",
+        "dateOfBirth": "1991-11-13",
+        "documentId": "PC8CTD64",
+        "seat": "12F",
+        "email": "quinn.silva4@gmail.com",
+        "phone": "+1-357-346-8897"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024353,
+      "updated_at": 1776024353
+    },
+    {
+      "pnr": "J9JCR3",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Riley Diaz",
+        "dateOfBirth": "1981-12-20",
+        "documentId": "PJ9JCR35",
+        "seat": "1D",
+        "email": "riley.diaz5@icloud.com",
+        "phone": "+1-587-539-5054"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024353,
+      "updated_at": 1776024353
+    },
+    {
+      "pnr": "ALJC9F",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Iris Silva",
+        "dateOfBirth": "1991-03-09",
+        "documentId": "PALJC9F6",
+        "seat": "14C",
+        "email": "iris.silva6@outlook.com",
+        "phone": "+1-603-240-7482"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024353,
+      "updated_at": 1776024353
+    },
+    {
+      "pnr": "SUE2SZ",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Maya Foster",
+        "dateOfBirth": "1994-01-29",
+        "documentId": "PSUE2SZ7",
+        "seat": "25A",
+        "email": "maya.foster7@outlook.com",
+        "phone": "+1-575-466-3414"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024353,
+      "updated_at": 1776024353
+    },
+    {
+      "pnr": "N4HC9B",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Iris Ramirez",
+        "dateOfBirth": "1969-08-17",
+        "documentId": "PN4HC9B8",
+        "seat": "20C",
+        "email": "iris.ramirez8@outlook.com",
+        "phone": "+1-251-446-8105"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024353,
+      "updated_at": 1776024353
+    }
+  ],
+  "created_at": 1776024353,
+  "updated_at": 1776024353
+}

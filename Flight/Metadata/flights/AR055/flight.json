@@ -1,0 +1,132 @@
+{
+  "flight_number": "AR055",
+  "date": "2027-01-12",
+  "scheduled_departure_unix": 1799762280,
+  "origin": "PHX",
+  "destination": "DTW",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "WGEJGW",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Jordan Walker",
+        "dateOfBirth": "1985-06-24",
+        "documentId": "PWGEJGW0",
+        "seat": "23B",
+        "email": "jordan.walker0@example.com",
+        "phone": "+1-399-270-8270"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024354,
+      "updated_at": 1776024354
+    },
+    {
+      "pnr": "62ZVGX",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Ethan Campbell",
+        "dateOfBirth": "1983-01-30",
+        "documentId": "P62ZVGX1",
+        "seat": "29D",
+        "email": "ethan.campbell1@gmail.com",
+        "phone": "+1-666-508-7954"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024354,
+      "updated_at": 1776024354
+    },
+    {
+      "pnr": "W37JEJ",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Morgan Bennett",
+        "dateOfBirth": "2003-03-01",
+        "documentId": "PW37JEJ2",
+        "seat": "17D",
+        "email": "morgan.bennett2@yahoo.com",
+        "phone": "+1-883-456-6807"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024354,
+      "updated_at": 1776024354
+    },
+    {
+      "pnr": "U98GYN",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Logan Silva",
+        "dateOfBirth": "1994-09-18",
+        "documentId": "PU98GYN3",
+        "seat": "19F",
+        "email": "logan.silva3@gmail.com",
+        "phone": "+1-759-816-8355"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024354,
+      "updated_at": 1776024354
+    },
+    {
+      "pnr": "MQ45V3",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Logan Patel",
+        "dateOfBirth": "2000-11-19",
+        "documentId": "PMQ45V34",
+        "seat": "30F",
+        "email": "logan.patel4@outlook.com",
+        "phone": "+1-520-877-6303"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024354,
+      "updated_at": 1776024354
+    },
+    {
+      "pnr": "TTVDNW",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Mila Walker",
+        "dateOfBirth": "1972-10-06",
+        "documentId": "PTTVDNW5",
+        "seat": "18C",
+        "email": "mila.walker5@yahoo.com",
+        "phone": "+1-224-369-9277"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024354,
+      "updated_at": 1776024354
+    },
+    {
+      "pnr": "Z7NCF5",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Mila Reed",
+        "dateOfBirth": "2004-01-23",
+        "documentId": "PZ7NCF56",
+        "seat": "15E",
+        "email": "mila.reed6@gmail.com",
+        "phone": "+1-224-228-6027"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024354,
+      "updated_at": 1776024354
+    }
+  ],
+  "created_at": 1776024354,
+  "updated_at": 1776024354
+}

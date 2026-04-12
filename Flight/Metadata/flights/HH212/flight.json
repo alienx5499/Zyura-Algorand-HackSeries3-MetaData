@@ -1,0 +1,30 @@
+{
+  "flight_number": "HH212",
+  "date": "2026-05-29",
+  "scheduled_departure_unix": 1780052936,
+  "origin": "SAN",
+  "destination": "ATL",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "MCPF8K",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Logan Campbell",
+        "dateOfBirth": "2001-04-02",
+        "documentId": "PMCPF8K0",
+        "seat": "23E",
+        "email": "logan.campbell0@icloud.com",
+        "phone": "+1-333-338-2211"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024384,
+      "updated_at": 1776024384
+    }
+  ],
+  "created_at": 1776024384,
+  "updated_at": 1776024384
+}

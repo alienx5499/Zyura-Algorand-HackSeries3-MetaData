@@ -1,0 +1,64 @@
+{
+  "flight_number": "NU342",
+  "date": "2026-12-09",
+  "scheduled_departure_unix": 1796804576,
+  "origin": "SLC",
+  "destination": "BOS",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "8KFC7L",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Emerson Diaz",
+        "dateOfBirth": "1960-04-25",
+        "documentId": "P8KFC7L0",
+        "seat": "1D",
+        "email": "emerson.diaz0@example.com",
+        "phone": "+1-345-535-9277"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024412,
+      "updated_at": 1776024412
+    },
+    {
+      "pnr": "7MFUK8",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Emerson Ramirez",
+        "dateOfBirth": "1990-09-10",
+        "documentId": "P7MFUK81",
+        "seat": "21E",
+        "email": "emerson.ramirez1@gmail.com",
+        "phone": "+1-664-839-5780"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024412,
+      "updated_at": 1776024412
+    },
+    {
+      "pnr": "7UW4HU",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Iris Thompson",
+        "dateOfBirth": "1956-01-20",
+        "documentId": "P7UW4HU2",
+        "seat": "10B",
+        "email": "iris.thompson2@outlook.com",
+        "phone": "+1-290-254-8862"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024412,
+      "updated_at": 1776024412
+    }
+  ],
+  "created_at": 1776024412,
+  "updated_at": 1776024412
+}

@@ -1,0 +1,149 @@
+{
+  "flight_number": "MW500",
+  "date": "2027-01-13",
+  "scheduled_departure_unix": 1799822610,
+  "origin": "BOS",
+  "destination": "FLL",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "UKSPUL",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Jordan Bennett",
+        "dateOfBirth": "1996-08-20",
+        "documentId": "PUKSPUL0",
+        "seat": "9A",
+        "email": "jordan.bennett0@gmail.com",
+        "phone": "+1-664-261-5339"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024345,
+      "updated_at": 1776024345
+    },
+    {
+      "pnr": "P7CVFA",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Taylor Ellis",
+        "dateOfBirth": "1972-09-17",
+        "documentId": "PP7CVFA1",
+        "seat": "17A",
+        "email": "taylor.ellis1@gmail.com",
+        "phone": "+1-419-564-0422"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024345,
+      "updated_at": 1776024345
+    },
+    {
+      "pnr": "VREFCB",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Harper Nguyen",
+        "dateOfBirth": "1962-07-01",
+        "documentId": "PVREFCB2",
+        "seat": "27B",
+        "email": "harper.nguyen2@outlook.com",
+        "phone": "+1-363-435-7500"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024345,
+      "updated_at": 1776024345
+    },
+    {
+      "pnr": "4DTMTH",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Avery Ramirez",
+        "dateOfBirth": "1989-10-04",
+        "documentId": "P4DTMTH3",
+        "seat": "3A",
+        "email": "avery.ramirez3@icloud.com",
+        "phone": "+1-849-211-4714"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024345,
+      "updated_at": 1776024345
+    },
+    {
+      "pnr": "RFQE9W",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Luca Diaz",
+        "dateOfBirth": "1958-04-05",
+        "documentId": "PRFQE9W4",
+        "seat": "7A",
+        "email": "luca.diaz4@gmail.com",
+        "phone": "+1-687-524-5153"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024345,
+      "updated_at": 1776024345
+    },
+    {
+      "pnr": "UF8ETS",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Riley Ramirez",
+        "dateOfBirth": "1968-11-02",
+        "documentId": "PUF8ETS5",
+        "seat": "24B",
+        "email": "riley.ramirez5@gmail.com",
+        "phone": "+1-495-313-7711"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024345,
+      "updated_at": 1776024345
+    },
+    {
+      "pnr": "7U5QN6",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Ethan Campbell",
+        "dateOfBirth": "1977-11-10",
+        "documentId": "P7U5QN66",
+        "seat": "16F",
+        "email": "ethan.campbell6@outlook.com",
+        "phone": "+1-439-656-8532"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024345,
+      "updated_at": 1776024345
+    },
+    {
+      "pnr": "JLGCWK",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Iris Foster",
+        "dateOfBirth": "2003-06-26",
+        "documentId": "PJLGCWK7",
+        "seat": "10A",
+        "email": "iris.foster7@outlook.com",
+        "phone": "+1-455-695-5137"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024345,
+      "updated_at": 1776024345
+    }
+  ],
+  "created_at": 1776024345,
+  "updated_at": 1776024345
+}

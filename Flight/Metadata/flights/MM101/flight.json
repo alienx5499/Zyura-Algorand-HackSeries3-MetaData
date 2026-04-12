@@ -1,0 +1,64 @@
+{
+  "flight_number": "MM101",
+  "date": "2027-01-06",
+  "scheduled_departure_unix": 1799211716,
+  "origin": "ATL",
+  "destination": "MIA",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "S9DUZT",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Iris Diaz",
+        "dateOfBirth": "1990-11-17",
+        "documentId": "PS9DUZT0",
+        "seat": "5C",
+        "email": "iris.diaz0@yahoo.com",
+        "phone": "+1-843-488-2681"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024363,
+      "updated_at": 1776024363
+    },
+    {
+      "pnr": "DUPBTE",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Caleb Campbell",
+        "dateOfBirth": "1997-03-30",
+        "documentId": "PDUPBTE1",
+        "seat": "28B",
+        "email": "caleb.campbell1@icloud.com",
+        "phone": "+1-223-528-1561"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024363,
+      "updated_at": 1776024363
+    },
+    {
+      "pnr": "ZFVZBW",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Zoe Reed",
+        "dateOfBirth": "1971-01-28",
+        "documentId": "PZFVZBW2",
+        "seat": "20F",
+        "email": "zoe.reed2@example.com",
+        "phone": "+1-219-393-7395"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024363,
+      "updated_at": 1776024363
+    }
+  ],
+  "created_at": 1776024363,
+  "updated_at": 1776024363
+}

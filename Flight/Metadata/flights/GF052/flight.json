@@ -1,0 +1,115 @@
+{
+  "flight_number": "GF052",
+  "date": "2027-04-10",
+  "scheduled_departure_unix": 1807335704,
+  "origin": "DTW",
+  "destination": "BOS",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "UZ7WWK",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Morgan Bennett",
+        "dateOfBirth": "1977-07-16",
+        "documentId": "PUZ7WWK0",
+        "seat": "22C",
+        "email": "morgan.bennett0@icloud.com",
+        "phone": "+1-468-382-6963"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024344,
+      "updated_at": 1776024344
+    },
+    {
+      "pnr": "TUUTBQ",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Noah Anderson",
+        "dateOfBirth": "1974-11-16",
+        "documentId": "PTUUTBQ1",
+        "seat": "27A",
+        "email": "noah.anderson1@gmail.com",
+        "phone": "+1-304-798-1025"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024344,
+      "updated_at": 1776024344
+    },
+    {
+      "pnr": "M9P92F",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Parker Diaz",
+        "dateOfBirth": "1956-11-11",
+        "documentId": "PM9P92F2",
+        "seat": "16B",
+        "email": "parker.diaz2@icloud.com",
+        "phone": "+1-447-233-6234"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024344,
+      "updated_at": 1776024344
+    },
+    {
+      "pnr": "SC8TU8",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Iris Bennett",
+        "dateOfBirth": "1971-11-28",
+        "documentId": "PSC8TU83",
+        "seat": "2C",
+        "email": "iris.bennett3@outlook.com",
+        "phone": "+1-718-386-8606"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024344,
+      "updated_at": 1776024344
+    },
+    {
+      "pnr": "97LZCV",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Taylor Ramirez",
+        "dateOfBirth": "1973-09-09",
+        "documentId": "P97LZCV4",
+        "seat": "10D",
+        "email": "taylor.ramirez4@example.com",
+        "phone": "+1-707-896-7008"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024344,
+      "updated_at": 1776024344
+    },
+    {
+      "pnr": "48HXHG",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Avery Patel",
+        "dateOfBirth": "1962-05-11",
+        "documentId": "P48HXHG5",
+        "seat": "4D",
+        "email": "avery.patel5@yahoo.com",
+        "phone": "+1-745-289-0454"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024344,
+      "updated_at": 1776024344
+    }
+  ],
+  "created_at": 1776024344,
+  "updated_at": 1776024344
+}

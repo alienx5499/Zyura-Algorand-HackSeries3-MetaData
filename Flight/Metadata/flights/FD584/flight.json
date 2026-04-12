@@ -1,0 +1,183 @@
+{
+  "flight_number": "FD584",
+  "date": "2026-06-12",
+  "scheduled_departure_unix": 1781235486,
+  "origin": "SAN",
+  "destination": "ORD",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "YCH8JA",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Noah Diaz",
+        "dateOfBirth": "1970-11-30",
+        "documentId": "PYCH8JA0",
+        "seat": "5F",
+        "email": "noah.diaz0@gmail.com",
+        "phone": "+1-535-274-8433"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024350,
+      "updated_at": 1776024350
+    },
+    {
+      "pnr": "H5HQN4",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Parker Patel",
+        "dateOfBirth": "1999-02-24",
+        "documentId": "PH5HQN41",
+        "seat": "26A",
+        "email": "parker.patel1@yahoo.com",
+        "phone": "+1-817-637-7092"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024350,
+      "updated_at": 1776024350
+    },
+    {
+      "pnr": "B63YR6",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Mila Diaz",
+        "dateOfBirth": "1964-09-10",
+        "documentId": "PB63YR62",
+        "seat": "5E",
+        "email": "mila.diaz2@icloud.com",
+        "phone": "+1-713-585-9466"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024350,
+      "updated_at": 1776024350
+    },
+    {
+      "pnr": "BTEVJM",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Luca Thompson",
+        "dateOfBirth": "1955-12-15",
+        "documentId": "PBTEVJM3",
+        "seat": "14A",
+        "email": "luca.thompson3@yahoo.com",
+        "phone": "+1-690-219-0095"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024350,
+      "updated_at": 1776024350
+    },
+    {
+      "pnr": "R5P59Q",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Riley Nguyen",
+        "dateOfBirth": "2000-12-12",
+        "documentId": "PR5P59Q4",
+        "seat": "30C",
+        "email": "riley.nguyen4@icloud.com",
+        "phone": "+1-890-490-1810"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024350,
+      "updated_at": 1776024350
+    },
+    {
+      "pnr": "QURGB8",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Zoe Reed",
+        "dateOfBirth": "1976-06-22",
+        "documentId": "PQURGB85",
+        "seat": "14F",
+        "email": "zoe.reed5@outlook.com",
+        "phone": "+1-844-579-9173"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024350,
+      "updated_at": 1776024350
+    },
+    {
+      "pnr": "EX32DR",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Taylor Patel",
+        "dateOfBirth": "1969-05-11",
+        "documentId": "PEX32DR6",
+        "seat": "28E",
+        "email": "taylor.patel6@icloud.com",
+        "phone": "+1-883-457-6106"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024350,
+      "updated_at": 1776024350
+    },
+    {
+      "pnr": "KRQALU",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Zoe Campbell",
+        "dateOfBirth": "2002-03-20",
+        "documentId": "PKRQALU7",
+        "seat": "2A",
+        "email": "zoe.campbell7@icloud.com",
+        "phone": "+1-386-491-0925"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024350,
+      "updated_at": 1776024350
+    },
+    {
+      "pnr": "UEDUJJ",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Iris Ellis",
+        "dateOfBirth": "2003-01-03",
+        "documentId": "PUEDUJJ8",
+        "seat": "3C",
+        "email": "iris.ellis8@icloud.com",
+        "phone": "+1-447-530-2981"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024350,
+      "updated_at": 1776024350
+    },
+    {
+      "pnr": "98EX3P",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Harper Ramirez",
+        "dateOfBirth": "1989-11-10",
+        "documentId": "P98EX3P9",
+        "seat": "18C",
+        "email": "harper.ramirez9@example.com",
+        "phone": "+1-420-213-7242"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024350,
+      "updated_at": 1776024350
+    }
+  ],
+  "created_at": 1776024350,
+  "updated_at": 1776024350
+}

@@ -1,0 +1,30 @@
+{
+  "flight_number": "NJ609",
+  "date": "2027-04-08",
+  "scheduled_departure_unix": 1807196373,
+  "origin": "BWI",
+  "destination": "LAX",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "KDSS7B",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Avery Reed",
+        "dateOfBirth": "1956-02-01",
+        "documentId": "PKDSS7B0",
+        "seat": "3F",
+        "email": "avery.reed0@outlook.com",
+        "phone": "+1-406-882-6025"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024371,
+      "updated_at": 1776024371
+    }
+  ],
+  "created_at": 1776024371,
+  "updated_at": 1776024371
+}

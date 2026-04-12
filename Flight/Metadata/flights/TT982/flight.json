@@ -1,0 +1,30 @@
+{
+  "flight_number": "TT982",
+  "date": "2026-07-17",
+  "scheduled_departure_unix": 1784287822,
+  "origin": "MIA",
+  "destination": "CLT",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "95G9QH",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Caleb Foster",
+        "dateOfBirth": "2001-08-18",
+        "documentId": "P95G9QH0",
+        "seat": "24A",
+        "email": "caleb.foster0@gmail.com",
+        "phone": "+1-893-881-1459"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024416,
+      "updated_at": 1776024416
+    }
+  ],
+  "created_at": 1776024416,
+  "updated_at": 1776024416
+}

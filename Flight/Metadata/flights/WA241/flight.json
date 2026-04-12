@@ -1,0 +1,64 @@
+{
+  "flight_number": "WA241",
+  "date": "2027-02-13",
+  "scheduled_departure_unix": 1802482681,
+  "origin": "BWI",
+  "destination": "SAN",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "VX8GZC",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Noah Walker",
+        "dateOfBirth": "1965-06-12",
+        "documentId": "PVX8GZC0",
+        "seat": "14E",
+        "email": "noah.walker0@gmail.com",
+        "phone": "+1-246-836-0870"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024343,
+      "updated_at": 1776024343
+    },
+    {
+      "pnr": "5W5GYL",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Noah Thompson",
+        "dateOfBirth": "1971-08-19",
+        "documentId": "P5W5GYL1",
+        "seat": "20E",
+        "email": "noah.thompson1@example.com",
+        "phone": "+1-713-632-6426"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024343,
+      "updated_at": 1776024343
+    },
+    {
+      "pnr": "G6KTLS",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Logan Bennett",
+        "dateOfBirth": "1960-03-01",
+        "documentId": "PG6KTLS2",
+        "seat": "22F",
+        "email": "logan.bennett2@example.com",
+        "phone": "+1-344-539-4251"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024343,
+      "updated_at": 1776024343
+    }
+  ],
+  "created_at": 1776024343,
+  "updated_at": 1776024343
+}

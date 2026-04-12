@@ -1,0 +1,81 @@
+{
+  "flight_number": "TL395",
+  "date": "2027-04-07",
+  "scheduled_departure_unix": 1807083043,
+  "origin": "SFO",
+  "destination": "LAX",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "CH94YU",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Ethan Reed",
+        "dateOfBirth": "1972-07-09",
+        "documentId": "PCH94YU0",
+        "seat": "30C",
+        "email": "ethan.reed0@outlook.com",
+        "phone": "+1-873-606-0030"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024399,
+      "updated_at": 1776024399
+    },
+    {
+      "pnr": "JPWPWW",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Quinn Diaz",
+        "dateOfBirth": "2000-12-23",
+        "documentId": "PJPWPWW1",
+        "seat": "22B",
+        "email": "quinn.diaz1@example.com",
+        "phone": "+1-559-783-9410"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024399,
+      "updated_at": 1776024399
+    },
+    {
+      "pnr": "XZG6EC",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Noah Diaz",
+        "dateOfBirth": "1979-05-18",
+        "documentId": "PXZG6EC2",
+        "seat": "21A",
+        "email": "noah.diaz2@icloud.com",
+        "phone": "+1-465-877-7703"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024399,
+      "updated_at": 1776024399
+    },
+    {
+      "pnr": "T2HBUQ",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Emerson Bennett",
+        "dateOfBirth": "1983-02-04",
+        "documentId": "PT2HBUQ3",
+        "seat": "6D",
+        "email": "emerson.bennett3@icloud.com",
+        "phone": "+1-494-341-2161"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024399,
+      "updated_at": 1776024399
+    }
+  ],
+  "created_at": 1776024399,
+  "updated_at": 1776024399
+}

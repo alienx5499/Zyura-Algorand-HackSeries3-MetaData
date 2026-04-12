@@ -1,0 +1,98 @@
+{
+  "flight_number": "MS625",
+  "date": "2026-06-17",
+  "scheduled_departure_unix": 1781733773,
+  "origin": "LAX",
+  "destination": "SLC",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "XQA52A",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Mila Walker",
+        "dateOfBirth": "1957-02-28",
+        "documentId": "PXQA52A0",
+        "seat": "22E",
+        "email": "mila.walker0@icloud.com",
+        "phone": "+1-747-449-3205"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024427,
+      "updated_at": 1776024427
+    },
+    {
+      "pnr": "7CDL7Y",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Emerson Silva",
+        "dateOfBirth": "1964-05-11",
+        "documentId": "P7CDL7Y1",
+        "seat": "17D",
+        "email": "emerson.silva1@gmail.com",
+        "phone": "+1-390-661-4203"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024427,
+      "updated_at": 1776024427
+    },
+    {
+      "pnr": "Z2NUPU",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Luca Thompson",
+        "dateOfBirth": "2000-05-20",
+        "documentId": "PZ2NUPU2",
+        "seat": "2A",
+        "email": "luca.thompson2@outlook.com",
+        "phone": "+1-723-352-1708"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024427,
+      "updated_at": 1776024427
+    },
+    {
+      "pnr": "A5H2WW",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Avery Foster",
+        "dateOfBirth": "1979-02-12",
+        "documentId": "PA5H2WW3",
+        "seat": "6C",
+        "email": "avery.foster3@gmail.com",
+        "phone": "+1-452-326-1657"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024427,
+      "updated_at": 1776024427
+    },
+    {
+      "pnr": "NQ25T4",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Taylor Ellis",
+        "dateOfBirth": "1960-08-23",
+        "documentId": "PNQ25T44",
+        "seat": "26A",
+        "email": "taylor.ellis4@gmail.com",
+        "phone": "+1-482-236-3437"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024427,
+      "updated_at": 1776024427
+    }
+  ],
+  "created_at": 1776024427,
+  "updated_at": 1776024427
+}

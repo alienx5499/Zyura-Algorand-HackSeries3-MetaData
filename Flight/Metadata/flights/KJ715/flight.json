@@ -1,0 +1,47 @@
+{
+  "flight_number": "KJ715",
+  "date": "2026-07-01",
+  "scheduled_departure_unix": 1782893538,
+  "origin": "DEN",
+  "destination": "BOS",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "FSVRS2",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Mila Diaz",
+        "dateOfBirth": "1961-06-04",
+        "documentId": "PFSVRS20",
+        "seat": "16E",
+        "email": "mila.diaz0@example.com",
+        "phone": "+1-610-869-7330"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024379,
+      "updated_at": 1776024379
+    },
+    {
+      "pnr": "R86BL8",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Parker Thompson",
+        "dateOfBirth": "1979-10-21",
+        "documentId": "PR86BL81",
+        "seat": "11B",
+        "email": "parker.thompson1@outlook.com",
+        "phone": "+1-896-609-2514"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024379,
+      "updated_at": 1776024379
+    }
+  ],
+  "created_at": 1776024379,
+  "updated_at": 1776024379
+}

@@ -1,0 +1,64 @@
+{
+  "flight_number": "VP156",
+  "date": "2026-09-21",
+  "scheduled_departure_unix": 1790019520,
+  "origin": "CLT",
+  "destination": "SLC",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "9EBFNW",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Jordan Walker",
+        "dateOfBirth": "1969-11-25",
+        "documentId": "P9EBFNW0",
+        "seat": "17E",
+        "email": "jordan.walker0@gmail.com",
+        "phone": "+1-317-559-1659"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024373,
+      "updated_at": 1776024373
+    },
+    {
+      "pnr": "W4HSJK",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Zoe Turner",
+        "dateOfBirth": "1967-03-10",
+        "documentId": "PW4HSJK1",
+        "seat": "24D",
+        "email": "zoe.turner1@gmail.com",
+        "phone": "+1-566-655-7306"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024373,
+      "updated_at": 1776024373
+    },
+    {
+      "pnr": "8CS5TE",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Iris Silva",
+        "dateOfBirth": "1961-09-11",
+        "documentId": "P8CS5TE2",
+        "seat": "19E",
+        "email": "iris.silva2@gmail.com",
+        "phone": "+1-442-810-8963"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024373,
+      "updated_at": 1776024373
+    }
+  ],
+  "created_at": 1776024373,
+  "updated_at": 1776024373
+}

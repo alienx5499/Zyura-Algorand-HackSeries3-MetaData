@@ -1,0 +1,115 @@
+{
+  "flight_number": "KV323",
+  "date": "2026-11-03",
+  "scheduled_departure_unix": 1793688366,
+  "origin": "SAN",
+  "destination": "SFO",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "3EVZLW",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Iris Reed",
+        "dateOfBirth": "1999-04-15",
+        "documentId": "P3EVZLW0",
+        "seat": "21C",
+        "email": "iris.reed0@outlook.com",
+        "phone": "+1-294-340-1995"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024402,
+      "updated_at": 1776024402
+    },
+    {
+      "pnr": "Q5X973",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Jordan Silva",
+        "dateOfBirth": "2005-02-01",
+        "documentId": "PQ5X9731",
+        "seat": "19E",
+        "email": "jordan.silva1@example.com",
+        "phone": "+1-676-668-7810"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024402,
+      "updated_at": 1776024402
+    },
+    {
+      "pnr": "Z8BBKW",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Morgan Anderson",
+        "dateOfBirth": "1955-08-31",
+        "documentId": "PZ8BBKW2",
+        "seat": "30E",
+        "email": "morgan.anderson2@yahoo.com",
+        "phone": "+1-299-404-5354"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024402,
+      "updated_at": 1776024402
+    },
+    {
+      "pnr": "8WXZJM",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Emerson Nguyen",
+        "dateOfBirth": "1963-05-08",
+        "documentId": "P8WXZJM3",
+        "seat": "24C",
+        "email": "emerson.nguyen3@icloud.com",
+        "phone": "+1-633-257-7870"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024402,
+      "updated_at": 1776024402
+    },
+    {
+      "pnr": "XWR7BG",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Avery Silva",
+        "dateOfBirth": "1969-10-02",
+        "documentId": "PXWR7BG4",
+        "seat": "11F",
+        "email": "avery.silva4@icloud.com",
+        "phone": "+1-861-792-9091"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024402,
+      "updated_at": 1776024402
+    },
+    {
+      "pnr": "UF5GXB",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Parker Turner",
+        "dateOfBirth": "1971-03-15",
+        "documentId": "PUF5GXB5",
+        "seat": "7B",
+        "email": "parker.turner5@outlook.com",
+        "phone": "+1-533-819-3959"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024402,
+      "updated_at": 1776024402
+    }
+  ],
+  "created_at": 1776024402,
+  "updated_at": 1776024402
+}

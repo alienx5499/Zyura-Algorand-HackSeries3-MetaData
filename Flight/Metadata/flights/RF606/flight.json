@@ -1,0 +1,30 @@
+{
+  "flight_number": "RF606",
+  "date": "2026-11-12",
+  "scheduled_departure_unix": 1794511205,
+  "origin": "BWI",
+  "destination": "SAN",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "F5J5M3",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Zoe Foster",
+        "dateOfBirth": "1965-12-17",
+        "documentId": "PF5J5M30",
+        "seat": "26A",
+        "email": "zoe.foster0@example.com",
+        "phone": "+1-579-310-1469"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024375,
+      "updated_at": 1776024375
+    }
+  ],
+  "created_at": 1776024375,
+  "updated_at": 1776024375
+}

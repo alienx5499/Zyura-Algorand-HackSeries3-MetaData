@@ -1,0 +1,30 @@
+{
+  "flight_number": "WN602",
+  "date": "2026-07-18",
+  "scheduled_departure_unix": 1784334654,
+  "origin": "BOS",
+  "destination": "SEA",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "BUQ7NE",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Mila Patel",
+        "dateOfBirth": "1956-11-20",
+        "documentId": "PBUQ7NE0",
+        "seat": "23B",
+        "email": "mila.patel0@outlook.com",
+        "phone": "+1-718-471-3835"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776024426,
+      "updated_at": 1776024426
+    }
+  ],
+  "created_at": 1776024426,
+  "updated_at": 1776024426
+}
