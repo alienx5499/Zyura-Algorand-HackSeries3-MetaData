@@ -88,20 +88,27 @@
     },
     {
       "pnr": "YZPQ6C",
-      "policyId": "NA",
+      "policyId": 30612,
       "policyholder": "NA",
-      "wallet": "NA",
+      "wallet": "CYEK2KMRXB6CPEJE4LKKFGQENUS5YMVEA6OY3BFN5OTTKTUHU3ETF6JFCU",
       "passenger": {
+        "name": "Mila Nguyen",
         "fullName": "Mila Nguyen",
-        "dateOfBirth": "1999-06-20",
-        "documentId": "PYZPQ6C4",
-        "seat": "11F",
         "email": "mila.nguyen4@gmail.com",
-        "phone": "+1-464-538-7941"
+        "phone": "+1-464-538-7941",
+        "phone_number": "+1-464-538-7941",
+        "date_of_birth": "1999-06-20",
+        "dateOfBirth": "1999-06-20",
+        "passport_number": "PYZPQ6C4",
+        "documentId": "PYZPQ6C4",
+        "address": null,
+        "seat": "11F",
+        "class": null,
+        "classType": null
       },
-      "nft_metadata_url": "NA",
-      "created_at": 1776024400,
-      "updated_at": 1776024400
+      "nft_metadata_url": "https://tinyurl.com/23xqse48",
+      "created_at": 1776030650,
+      "updated_at": 1776030650
     },
     {
       "pnr": "GQP6MK",
@@ -129,5 +136,5 @@
     }
   ],
   "created_at": 1776024400,
-  "updated_at": 1776030240
+  "updated_at": 1776030650
 }
