@@ -47,20 +47,27 @@
     },
     {
       "pnr": "37EASW",
-      "policyId": "NA",
+      "policyId": 26223,
       "policyholder": "NA",
-      "wallet": "NA",
+      "wallet": "CYEK2KMRXB6CPEJE4LKKFGQENUS5YMVEA6OY3BFN5OTTKTUHU3ETF6JFCU",
       "passenger": {
+        "name": "Caleb Bennett",
         "fullName": "Caleb Bennett",
-        "dateOfBirth": "1965-02-05",
-        "documentId": "P37EASW2",
-        "seat": "13B",
         "email": "caleb.bennett2@gmail.com",
-        "phone": "+1-857-863-2670"
+        "phone": "+1-857-863-2670",
+        "phone_number": "+1-857-863-2670",
+        "date_of_birth": "1965-02-05",
+        "dateOfBirth": "1965-02-05",
+        "passport_number": "P37EASW2",
+        "documentId": "P37EASW2",
+        "address": null,
+        "seat": "13B",
+        "class": null,
+        "classType": null
       },
-      "nft_metadata_url": "NA",
-      "created_at": 1776024400,
-      "updated_at": 1776024400
+      "nft_metadata_url": "https://tinyurl.com/2xzp38n6",
+      "created_at": 1776026240,
+      "updated_at": 1776026240
     },
     {
       "pnr": "7LWM23",
@@ -115,5 +122,5 @@
     }
   ],
   "created_at": 1776024400,
-  "updated_at": 1776025786
+  "updated_at": 1776026240
 }
