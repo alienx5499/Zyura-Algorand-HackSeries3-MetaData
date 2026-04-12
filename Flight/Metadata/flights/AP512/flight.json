@@ -71,20 +71,27 @@
     },
     {
       "pnr": "7LWM23",
-      "policyId": "NA",
+      "policyId": 31857,
       "policyholder": "NA",
-      "wallet": "NA",
+      "wallet": "CYEK2KMRXB6CPEJE4LKKFGQENUS5YMVEA6OY3BFN5OTTKTUHU3ETF6JFCU",
       "passenger": {
+        "name": "Harper Nguyen",
         "fullName": "Harper Nguyen",
-        "dateOfBirth": "1992-05-22",
-        "documentId": "P7LWM233",
-        "seat": "2C",
         "email": "harper.nguyen3@yahoo.com",
-        "phone": "+1-502-477-2779"
+        "phone": "+1-502-477-2779",
+        "phone_number": "+1-502-477-2779",
+        "date_of_birth": "1992-05-22",
+        "dateOfBirth": "1992-05-22",
+        "passport_number": "P7LWM233",
+        "documentId": "P7LWM233",
+        "address": null,
+        "seat": "2C",
+        "class": null,
+        "classType": null
       },
-      "nft_metadata_url": "NA",
-      "created_at": 1776024400,
-      "updated_at": 1776024400
+      "nft_metadata_url": "https://tinyurl.com/2ye5hvsj",
+      "created_at": 1776031886,
+      "updated_at": 1776031887
     },
     {
       "pnr": "YZPQ6C",
@@ -136,5 +143,5 @@
     }
   ],
   "created_at": 1776024400,
-  "updated_at": 1776030650
+  "updated_at": 1776031887
 }
