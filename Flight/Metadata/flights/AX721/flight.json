@@ -30,20 +30,27 @@
     },
     {
       "pnr": "ZXALRA",
-      "policyId": "NA",
+      "policyId": 32306,
       "policyholder": "NA",
-      "wallet": "NA",
+      "wallet": "CYEK2KMRXB6CPEJE4LKKFGQENUS5YMVEA6OY3BFN5OTTKTUHU3ETF6JFCU",
       "passenger": {
+        "name": "Iris Ellis",
         "fullName": "Iris Ellis",
-        "dateOfBirth": "1981-04-08",
-        "documentId": "PZXALRA1",
-        "seat": "3B",
         "email": "iris.ellis1@outlook.com",
-        "phone": "+1-737-849-3901"
+        "phone": "+1-737-849-3901",
+        "phone_number": "+1-737-849-3901",
+        "date_of_birth": "1981-04-08",
+        "dateOfBirth": "1981-04-08",
+        "passport_number": "PZXALRA1",
+        "documentId": "PZXALRA1",
+        "address": null,
+        "seat": "3B",
+        "class": null,
+        "classType": null
       },
-      "nft_metadata_url": "NA",
-      "created_at": 1776024346,
-      "updated_at": 1776024346
+      "nft_metadata_url": "https://tinyurl.com/25oqo8n5",
+      "created_at": 1776032338,
+      "updated_at": 1776032338
     },
     {
       "pnr": "8ZBTDT",
@@ -149,5 +156,5 @@
     }
   ],
   "created_at": 1776024346,
-  "updated_at": 1776032248
+  "updated_at": 1776032338
 }
