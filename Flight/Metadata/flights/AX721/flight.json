@@ -1,28 +1,32 @@
 {
   "flight_number": "AX721",
   "date": "2026-04-21",
-  "scheduled_departure_unix": 1776784416,
-  "origin": "IAD",
-  "destination": "BWI",
+  "scheduled_departure_unix": 1776784380,
   "status": "scheduled",
-  "delay_minutes": 0,
   "pnrs": [
     {
       "pnr": "X28YP7",
-      "policyId": "NA",
+      "policyId": 32229,
       "policyholder": "NA",
-      "wallet": "NA",
+      "wallet": "CYEK2KMRXB6CPEJE4LKKFGQENUS5YMVEA6OY3BFN5OTTKTUHU3ETF6JFCU",
       "passenger": {
+        "name": "Noah Patel",
         "fullName": "Noah Patel",
-        "dateOfBirth": "1998-09-05",
-        "documentId": "PX28YP70",
-        "seat": "21E",
         "email": "noah.patel0@example.com",
-        "phone": "+1-707-299-4421"
+        "phone": "+1-707-299-4421",
+        "phone_number": "+1-707-299-4421",
+        "date_of_birth": "1998-09-05",
+        "dateOfBirth": "1998-09-05",
+        "passport_number": "PX28YP70",
+        "documentId": "PX28YP70",
+        "address": null,
+        "seat": "21E",
+        "class": null,
+        "classType": null
       },
-      "nft_metadata_url": "NA",
-      "created_at": 1776024346,
-      "updated_at": 1776024346
+      "nft_metadata_url": "https://tinyurl.com/26l9b8cg",
+      "created_at": 1776032248,
+      "updated_at": 1776032248
     },
     {
       "pnr": "ZXALRA",
@@ -145,5 +149,5 @@
     }
   ],
   "created_at": 1776024346,
-  "updated_at": 1776024346
+  "updated_at": 1776032248
 }
