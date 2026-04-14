@@ -30,20 +30,27 @@
     },
     {
       "pnr": "KA7PNK",
-      "policyId": "NA",
+      "policyId": 199630,
       "policyholder": "NA",
-      "wallet": "NA",
+      "wallet": "CYEK2KMRXB6CPEJE4LKKFGQENUS5YMVEA6OY3BFN5OTTKTUHU3ETF6JFCU",
       "passenger": {
+        "name": "Avery Anderson",
         "fullName": "Avery Anderson",
-        "dateOfBirth": "1956-09-07",
-        "documentId": "PKA7PNK1",
-        "seat": "22A",
         "email": "avery.anderson1@outlook.com",
-        "phone": "+1-421-898-7574"
+        "phone": "+1-421-898-7574",
+        "phone_number": "+1-421-898-7574",
+        "date_of_birth": "1956-09-07",
+        "dateOfBirth": "1956-09-07",
+        "passport_number": "PKA7PNK1",
+        "documentId": "PKA7PNK1",
+        "address": null,
+        "seat": "22A",
+        "class": null,
+        "classType": null
       },
-      "nft_metadata_url": "NA",
-      "created_at": 1776024411,
-      "updated_at": 1776024411
+      "nft_metadata_url": "https://is.gd/RAbjfq",
+      "created_at": 1776199650,
+      "updated_at": 1776199650
     },
     {
       "pnr": "DZD2G5",
@@ -132,5 +139,5 @@
     }
   ],
   "created_at": 1776024411,
-  "updated_at": 1776199484
+  "updated_at": 1776199650
 }
