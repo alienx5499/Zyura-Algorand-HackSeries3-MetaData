@@ -1,28 +1,32 @@
 {
   "flight_number": "CG129",
   "date": "2027-03-01",
-  "scheduled_departure_unix": 1803938108,
-  "origin": "CLT",
-  "destination": "SEA",
+  "scheduled_departure_unix": 1803938100,
   "status": "scheduled",
-  "delay_minutes": 0,
   "pnrs": [
     {
       "pnr": "YL2LGB",
-      "policyId": "NA",
+      "policyId": 195385,
       "policyholder": "NA",
-      "wallet": "NA",
+      "wallet": "CYEK2KMRXB6CPEJE4LKKFGQENUS5YMVEA6OY3BFN5OTTKTUHU3ETF6JFCU",
       "passenger": {
+        "name": "Luca Campbell",
         "fullName": "Luca Campbell",
-        "dateOfBirth": "1958-09-22",
-        "documentId": "PYL2LGB0",
-        "seat": "2E",
         "email": "luca.campbell0@outlook.com",
-        "phone": "+1-877-471-9223"
+        "phone": "+1-877-471-9223",
+        "phone_number": "+1-877-471-9223",
+        "date_of_birth": "1958-09-22",
+        "dateOfBirth": "1958-09-22",
+        "passport_number": "PYL2LGB0",
+        "documentId": "PYL2LGB0",
+        "address": null,
+        "seat": "2E",
+        "class": null,
+        "classType": null
       },
-      "nft_metadata_url": "NA",
-      "created_at": 1776024352,
-      "updated_at": 1776024352
+      "nft_metadata_url": "https://is.gd/bMOCfQ",
+      "created_at": 1776195408,
+      "updated_at": 1776195409
     },
     {
       "pnr": "B8FF2C",
@@ -162,5 +166,5 @@
     }
   ],
   "created_at": 1776024352,
-  "updated_at": 1776024352
+  "updated_at": 1776195409
 }
