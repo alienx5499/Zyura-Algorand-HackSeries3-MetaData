@@ -105,20 +105,27 @@
     },
     {
       "pnr": "RV23Q7",
-      "policyId": "NA",
+      "policyId": 197215,
       "policyholder": "NA",
-      "wallet": "NA",
+      "wallet": "CYEK2KMRXB6CPEJE4LKKFGQENUS5YMVEA6OY3BFN5OTTKTUHU3ETF6JFCU",
       "passenger": {
+        "name": "Jordan Ellis",
         "fullName": "Jordan Ellis",
-        "dateOfBirth": "1955-08-16",
-        "documentId": "PRV23Q75",
-        "seat": "12B",
         "email": "jordan.ellis5@example.com",
-        "phone": "+1-250-265-5676"
+        "phone": "+1-250-265-5676",
+        "phone_number": "+1-250-265-5676",
+        "date_of_birth": "1955-08-16",
+        "dateOfBirth": "1955-08-16",
+        "passport_number": "PRV23Q75",
+        "documentId": "PRV23Q75",
+        "address": null,
+        "seat": "12B",
+        "class": null,
+        "classType": null
       },
-      "nft_metadata_url": "NA",
-      "created_at": 1776024352,
-      "updated_at": 1776024352
+      "nft_metadata_url": "https://is.gd/miTsXi",
+      "created_at": 1776197234,
+      "updated_at": 1776197234
     },
     {
       "pnr": "XWX33P",
@@ -173,5 +180,5 @@
     }
   ],
   "created_at": 1776024352,
-  "updated_at": 1776196492
+  "updated_at": 1776197234
 }
