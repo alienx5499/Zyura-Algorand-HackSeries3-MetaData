@@ -1,28 +1,32 @@
 {
   "flight_number": "WY413",
   "date": "2026-05-02",
-  "scheduled_departure_unix": 1777696645,
-  "origin": "IAD",
-  "destination": "FLL",
+  "scheduled_departure_unix": 1777696620,
   "status": "scheduled",
-  "delay_minutes": 0,
   "pnrs": [
     {
       "pnr": "74LR3J",
-      "policyId": "NA",
+      "policyId": 204971,
       "policyholder": "NA",
-      "wallet": "NA",
+      "wallet": "CYEK2KMRXB6CPEJE4LKKFGQENUS5YMVEA6OY3BFN5OTTKTUHU3ETF6JFCU",
       "passenger": {
+        "name": "Noah Foster",
         "fullName": "Noah Foster",
-        "dateOfBirth": "1991-05-16",
-        "documentId": "P74LR3J0",
-        "seat": "20F",
         "email": "noah.foster0@yahoo.com",
-        "phone": "+1-501-770-1001"
+        "phone": "+1-501-770-1001",
+        "phone_number": "+1-501-770-1001",
+        "date_of_birth": "1991-05-16",
+        "dateOfBirth": "1991-05-16",
+        "passport_number": "P74LR3J0",
+        "documentId": "P74LR3J0",
+        "address": null,
+        "seat": "20F",
+        "class": null,
+        "classType": null
       },
-      "nft_metadata_url": "NA",
-      "created_at": 1776024361,
-      "updated_at": 1776024361
+      "nft_metadata_url": "https://is.gd/y6TaTW",
+      "created_at": 1776204988,
+      "updated_at": 1776204988
     },
     {
       "pnr": "RJZ437",
@@ -43,5 +47,5 @@
     }
   ],
   "created_at": 1776024361,
-  "updated_at": 1776024361
+  "updated_at": 1776204988
 }
