@@ -1,11 +1,8 @@
 {
   "flight_number": "VM730",
   "date": "2026-12-02",
-  "scheduled_departure_unix": 1796203467,
-  "origin": "CLT",
-  "destination": "SLC",
+  "scheduled_departure_unix": 1796203440,
   "status": "scheduled",
-  "delay_minutes": 0,
   "pnrs": [
     {
       "pnr": "Y2GA8D",
@@ -111,22 +108,29 @@
     },
     {
       "pnr": "M9GTW2",
-      "policyId": "NA",
+      "policyId": 206160,
       "policyholder": "NA",
-      "wallet": "NA",
+      "wallet": "CYEK2KMRXB6CPEJE4LKKFGQENUS5YMVEA6OY3BFN5OTTKTUHU3ETF6JFCU",
       "passenger": {
+        "name": "Avery Reed",
         "fullName": "Avery Reed",
-        "dateOfBirth": "1994-03-24",
-        "documentId": "PM9GTW26",
-        "seat": "15C",
         "email": "avery.reed6@example.com",
-        "phone": "+1-780-798-3712"
+        "phone": "+1-780-798-3712",
+        "phone_number": "+1-780-798-3712",
+        "date_of_birth": "1994-03-24",
+        "dateOfBirth": "1994-03-24",
+        "passport_number": "PM9GTW26",
+        "documentId": "PM9GTW26",
+        "address": null,
+        "seat": "15C",
+        "class": null,
+        "classType": null
       },
-      "nft_metadata_url": "NA",
-      "created_at": 1776024365,
-      "updated_at": 1776024365
+      "nft_metadata_url": "https://is.gd/BF6xrX",
+      "created_at": 1776206177,
+      "updated_at": 1776206177
     }
   ],
   "created_at": 1776024365,
-  "updated_at": 1776024365
+  "updated_at": 1776206177
 }
