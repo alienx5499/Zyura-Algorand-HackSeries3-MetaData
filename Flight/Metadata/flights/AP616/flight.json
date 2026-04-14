@@ -1,11 +1,8 @@
 {
   "flight_number": "AP616",
   "date": "2027-01-22",
-  "scheduled_departure_unix": 1800631429,
-  "origin": "ORD",
-  "destination": "BWI",
+  "scheduled_departure_unix": 1800631380,
   "status": "scheduled",
-  "delay_minutes": 0,
   "pnrs": [
     {
       "pnr": "BNR3FS",
@@ -77,20 +74,27 @@
     },
     {
       "pnr": "V6QPRC",
-      "policyId": "NA",
+      "policyId": 205380,
       "policyholder": "NA",
-      "wallet": "NA",
+      "wallet": "CYEK2KMRXB6CPEJE4LKKFGQENUS5YMVEA6OY3BFN5OTTKTUHU3ETF6JFCU",
       "passenger": {
+        "name": "Quinn Silva",
         "fullName": "Quinn Silva",
-        "dateOfBirth": "2003-11-21",
-        "documentId": "PV6QPRC4",
-        "seat": "4F",
         "email": "quinn.silva4@yahoo.com",
-        "phone": "+1-682-669-4417"
+        "phone": "+1-682-669-4417",
+        "phone_number": "+1-682-669-4417",
+        "date_of_birth": "2003-11-21",
+        "dateOfBirth": "2003-11-21",
+        "passport_number": "PV6QPRC4",
+        "documentId": "PV6QPRC4",
+        "address": null,
+        "seat": "4F",
+        "class": null,
+        "classType": null
       },
-      "nft_metadata_url": "NA",
-      "created_at": 1776024337,
-      "updated_at": 1776024337
+      "nft_metadata_url": "https://is.gd/n2MRWQ",
+      "created_at": 1776205401,
+      "updated_at": 1776205401
     },
     {
       "pnr": "ZKGNE3",
@@ -111,5 +115,5 @@
     }
   ],
   "created_at": 1776024337,
-  "updated_at": 1776024337
+  "updated_at": 1776205401
 }
