@@ -47,20 +47,27 @@
     },
     {
       "pnr": "YAVD66",
-      "policyId": "NA",
+      "policyId": 196473,
       "policyholder": "NA",
-      "wallet": "NA",
+      "wallet": "CYEK2KMRXB6CPEJE4LKKFGQENUS5YMVEA6OY3BFN5OTTKTUHU3ETF6JFCU",
       "passenger": {
+        "name": "Ethan Anderson",
         "fullName": "Ethan Anderson",
-        "dateOfBirth": "1994-11-22",
-        "documentId": "PYAVD662",
-        "seat": "27F",
         "email": "ethan.anderson2@outlook.com",
-        "phone": "+1-706-778-6559"
+        "phone": "+1-706-778-6559",
+        "phone_number": "+1-706-778-6559",
+        "date_of_birth": "1994-11-22",
+        "dateOfBirth": "1994-11-22",
+        "passport_number": "PYAVD662",
+        "documentId": "PYAVD662",
+        "address": null,
+        "seat": "27F",
+        "class": null,
+        "classType": null
       },
-      "nft_metadata_url": "NA",
-      "created_at": 1776024352,
-      "updated_at": 1776024352
+      "nft_metadata_url": "https://is.gd/dd1zWb",
+      "created_at": 1776196491,
+      "updated_at": 1776196492
     },
     {
       "pnr": "28798J",
@@ -166,5 +173,5 @@
     }
   ],
   "created_at": 1776024352,
-  "updated_at": 1776195409
+  "updated_at": 1776196492
 }
