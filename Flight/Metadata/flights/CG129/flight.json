@@ -163,22 +163,29 @@
     },
     {
       "pnr": "DC425X",
-      "policyId": "NA",
+      "policyId": 197571,
       "policyholder": "NA",
-      "wallet": "NA",
+      "wallet": "CYEK2KMRXB6CPEJE4LKKFGQENUS5YMVEA6OY3BFN5OTTKTUHU3ETF6JFCU",
       "passenger": {
+        "name": "Zoe Turner",
         "fullName": "Zoe Turner",
-        "dateOfBirth": "1962-09-13",
-        "documentId": "PDC425X8",
-        "seat": "13B",
         "email": "zoe.turner8@gmail.com",
-        "phone": "+1-482-737-0824"
+        "phone": "+1-482-737-0824",
+        "phone_number": "+1-482-737-0824",
+        "date_of_birth": "1962-09-13",
+        "dateOfBirth": "1962-09-13",
+        "passport_number": "PDC425X8",
+        "documentId": "PDC425X8",
+        "address": null,
+        "seat": "13B",
+        "class": null,
+        "classType": null
       },
-      "nft_metadata_url": "NA",
-      "created_at": 1776024352,
-      "updated_at": 1776024352
+      "nft_metadata_url": "https://is.gd/yl83Wp",
+      "created_at": 1776197593,
+      "updated_at": 1776197593
     }
   ],
   "created_at": 1776024352,
-  "updated_at": 1776197234
+  "updated_at": 1776197593
 }
