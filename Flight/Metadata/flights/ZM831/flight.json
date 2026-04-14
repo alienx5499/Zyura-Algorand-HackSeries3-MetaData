@@ -1,28 +1,32 @@
 {
   "flight_number": "ZM831",
   "date": "2026-10-13",
-  "scheduled_departure_unix": 1791885571,
-  "origin": "ORD",
-  "destination": "MIA",
+  "scheduled_departure_unix": 1791885540,
   "status": "scheduled",
-  "delay_minutes": 0,
   "pnrs": [
     {
       "pnr": "GAQHZE",
-      "policyId": "NA",
+      "policyId": 199451,
       "policyholder": "NA",
-      "wallet": "NA",
+      "wallet": "CYEK2KMRXB6CPEJE4LKKFGQENUS5YMVEA6OY3BFN5OTTKTUHU3ETF6JFCU",
       "passenger": {
+        "name": "Maya Patel",
         "fullName": "Maya Patel",
-        "dateOfBirth": "1966-10-04",
-        "documentId": "PGAQHZE0",
-        "seat": "14B",
         "email": "maya.patel0@example.com",
-        "phone": "+1-883-414-8546"
+        "phone": "+1-883-414-8546",
+        "phone_number": "+1-883-414-8546",
+        "date_of_birth": "1966-10-04",
+        "dateOfBirth": "1966-10-04",
+        "passport_number": "PGAQHZE0",
+        "documentId": "PGAQHZE0",
+        "address": null,
+        "seat": "14B",
+        "class": null,
+        "classType": null
       },
-      "nft_metadata_url": "NA",
-      "created_at": 1776024411,
-      "updated_at": 1776024411
+      "nft_metadata_url": "https://is.gd/xqe75E",
+      "created_at": 1776199484,
+      "updated_at": 1776199484
     },
     {
       "pnr": "KA7PNK",
@@ -128,5 +132,5 @@
     }
   ],
   "created_at": 1776024411,
-  "updated_at": 1776024411
+  "updated_at": 1776199484
 }
