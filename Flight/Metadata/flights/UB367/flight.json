@@ -1,28 +1,32 @@
 {
   "flight_number": "UB367",
   "date": "2026-12-22",
-  "scheduled_departure_unix": 1797940811,
-  "origin": "LAS",
-  "destination": "SFO",
+  "scheduled_departure_unix": 1797940800,
   "status": "scheduled",
-  "delay_minutes": 0,
   "pnrs": [
     {
       "pnr": "HMQME6",
-      "policyId": "NA",
+      "policyId": 198477,
       "policyholder": "NA",
-      "wallet": "NA",
+      "wallet": "CYEK2KMRXB6CPEJE4LKKFGQENUS5YMVEA6OY3BFN5OTTKTUHU3ETF6JFCU",
       "passenger": {
+        "name": "Logan Diaz",
         "fullName": "Logan Diaz",
-        "dateOfBirth": "2003-04-18",
-        "documentId": "PHMQME60",
-        "seat": "14F",
         "email": "logan.diaz0@outlook.com",
-        "phone": "+1-491-283-2246"
+        "phone": "+1-491-283-2246",
+        "phone_number": "+1-491-283-2246",
+        "date_of_birth": "2003-04-18",
+        "dateOfBirth": "2003-04-18",
+        "passport_number": "PHMQME60",
+        "documentId": "PHMQME60",
+        "address": null,
+        "seat": "14F",
+        "class": null,
+        "classType": null
       },
-      "nft_metadata_url": "NA",
-      "created_at": 1776024404,
-      "updated_at": 1776024404
+      "nft_metadata_url": "https://is.gd/MpnCPb",
+      "created_at": 1776198502,
+      "updated_at": 1776198502
     },
     {
       "pnr": "BMF4CA",
@@ -179,5 +183,5 @@
     }
   ],
   "created_at": 1776024404,
-  "updated_at": 1776024404
+  "updated_at": 1776198502
 }
