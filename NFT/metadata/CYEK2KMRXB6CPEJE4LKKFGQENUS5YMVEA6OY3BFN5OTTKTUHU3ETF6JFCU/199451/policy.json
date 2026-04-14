@@ -1,17 +1,20 @@
 {
   "name": "ZYURA Policy 199451 · ZM831",
-  "description": "Flight delay cover — ZM831, departs 2026-10-13T09:59:00.000Z. Premium $1.20, coverage $100.00. Policy id 199451 (product 1). Authoritative state is on-chain in the Zyura application (Algorand app ID 758740660): holder, policy NFT ASA id, and status in contract storage — not this file. This JSON updates after purchase; for payout, status becomes CLAIMED on-chain first, then metadata may be refreshed.",
+  "description": "Flight delay cover - ZM831, departs 2026-10-13T09:59:00.000Z. Premium $1.20, coverage $100.00. Policy 199451 is ACTIVE; policy NFT ASA 758822577. Purchased 2026-04-14T20:44:42.235Z. Policy id 199451 (product 1). One wallet approval confirmed premium, policy registration, NFT delivery, link, and freeze in one atomic group. Authoritative status and payout flags live on-chain (Zyura app 758740660, policy id 199451); this file mirrors that for display.",
   "symbol": "ZYURA",
   "image": "https://raw.githubusercontent.com/alienx5499/Zyura-Algorand-HackSeries3-MetaData/main/NFT/metadata/CYEK2KMRXB6CPEJE4LKKFGQENUS5YMVEA6OY3BFN5OTTKTUHU3ETF6JFCU/199451/policy.svg",
   "external_url": "https://testnet.explorer.perawallet.app/application/758740660",
   "policy_id": "199451",
   "product_id": "1",
-  "status": "PENDING_CONFIRMATION",
+  "status": "ACTIVE",
   "flight": "ZM831",
   "pnr": "GAQHZE",
   "departure": "2026-10-13T09:59:00.000Z",
   "coverage_usd": 100,
   "premium_usd": 1.2,
   "payout_at": null,
-  "payout_at_unix": null
+  "payout_at_unix": null,
+  "nft_asset_id": 758822577,
+  "purchased_at": "2026-04-14T20:44:42.235Z",
+  "purchased_at_unix": 1776199482
 }
