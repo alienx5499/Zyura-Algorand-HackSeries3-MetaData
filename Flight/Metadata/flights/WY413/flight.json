@@ -30,22 +30,29 @@
     },
     {
       "pnr": "RJZ437",
-      "policyId": "NA",
+      "policyId": 205031,
       "policyholder": "NA",
-      "wallet": "NA",
+      "wallet": "CYEK2KMRXB6CPEJE4LKKFGQENUS5YMVEA6OY3BFN5OTTKTUHU3ETF6JFCU",
       "passenger": {
+        "name": "Noah Walker",
         "fullName": "Noah Walker",
-        "dateOfBirth": "1961-03-20",
-        "documentId": "PRJZ4371",
-        "seat": "18D",
         "email": "noah.walker1@example.com",
-        "phone": "+1-734-497-4207"
+        "phone": "+1-734-497-4207",
+        "phone_number": "+1-734-497-4207",
+        "date_of_birth": "1961-03-20",
+        "dateOfBirth": "1961-03-20",
+        "passport_number": "PRJZ4371",
+        "documentId": "PRJZ4371",
+        "address": null,
+        "seat": "18D",
+        "class": null,
+        "classType": null
       },
-      "nft_metadata_url": "NA",
-      "created_at": 1776024361,
-      "updated_at": 1776024361
+      "nft_metadata_url": "https://is.gd/nxDPES",
+      "created_at": 1776205047,
+      "updated_at": 1776205047
     }
   ],
   "created_at": 1776024361,
-  "updated_at": 1776204988
+  "updated_at": 1776205047
 }
