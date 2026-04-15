@@ -1,28 +1,32 @@
 {
   "flight_number": "VT265",
   "date": "2026-10-11",
-  "scheduled_departure_unix": 1791747579,
-  "origin": "MIA",
-  "destination": "JFK",
+  "scheduled_departure_unix": 1791747540,
   "status": "scheduled",
-  "delay_minutes": 0,
   "pnrs": [
     {
       "pnr": "RNP7MX",
-      "policyId": "NA",
+      "policyId": 263399,
       "policyholder": "NA",
-      "wallet": "NA",
+      "wallet": "CYEK2KMRXB6CPEJE4LKKFGQENUS5YMVEA6OY3BFN5OTTKTUHU3ETF6JFCU",
       "passenger": {
+        "name": "Morgan Campbell",
         "fullName": "Morgan Campbell",
-        "dateOfBirth": "1991-01-07",
-        "documentId": "PRNP7MX0",
-        "seat": "27B",
         "email": "morgan.campbell0@yahoo.com",
-        "phone": "+1-821-856-6868"
+        "phone": "+1-821-856-6868",
+        "phone_number": "+1-821-856-6868",
+        "date_of_birth": "1991-01-07",
+        "dateOfBirth": "1991-01-07",
+        "passport_number": "PRNP7MX0",
+        "documentId": "PRNP7MX0",
+        "address": null,
+        "seat": "27B",
+        "class": null,
+        "classType": null
       },
-      "nft_metadata_url": "NA",
-      "created_at": 1776024398,
-      "updated_at": 1776024398
+      "nft_metadata_url": "https://is.gd/ylohOa",
+      "created_at": 1776263426,
+      "updated_at": 1776263426
     },
     {
       "pnr": "C5V5SG",
@@ -77,5 +81,5 @@
     }
   ],
   "created_at": 1776024398,
-  "updated_at": 1776024398
+  "updated_at": 1776263426
 }
