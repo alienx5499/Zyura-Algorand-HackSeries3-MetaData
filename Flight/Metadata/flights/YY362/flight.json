@@ -1,28 +1,32 @@
 {
   "flight_number": "YY362",
   "date": "2027-04-12",
-  "scheduled_departure_unix": 1807561600,
-  "origin": "ATL",
-  "destination": "DEN",
+  "scheduled_departure_unix": 1807561560,
   "status": "scheduled",
-  "delay_minutes": 0,
   "pnrs": [
     {
       "pnr": "NTZJW7",
-      "policyId": "NA",
+      "policyId": 261715,
       "policyholder": "NA",
-      "wallet": "NA",
+      "wallet": "CYEK2KMRXB6CPEJE4LKKFGQENUS5YMVEA6OY3BFN5OTTKTUHU3ETF6JFCU",
       "passenger": {
+        "name": "Ethan Nguyen",
         "fullName": "Ethan Nguyen",
-        "dateOfBirth": "2000-06-02",
-        "documentId": "PNTZJW70",
-        "seat": "25B",
         "email": "ethan.nguyen0@example.com",
-        "phone": "+1-570-538-6106"
+        "phone": "+1-570-538-6106",
+        "phone_number": "+1-570-538-6106",
+        "date_of_birth": "2000-06-02",
+        "dateOfBirth": "2000-06-02",
+        "passport_number": "PNTZJW70",
+        "documentId": "PNTZJW70",
+        "address": null,
+        "seat": "25B",
+        "class": null,
+        "classType": null
       },
-      "nft_metadata_url": "NA",
-      "created_at": 1776024336,
-      "updated_at": 1776024336
+      "nft_metadata_url": "https://is.gd/La0lp8",
+      "created_at": 1776261737,
+      "updated_at": 1776261737
     },
     {
       "pnr": "RJV399",
@@ -145,5 +149,5 @@
     }
   ],
   "created_at": 1776024336,
-  "updated_at": 1776024336
+  "updated_at": 1776261737
 }
