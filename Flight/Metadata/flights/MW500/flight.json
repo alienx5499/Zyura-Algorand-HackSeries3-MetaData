@@ -1,11 +1,8 @@
 {
   "flight_number": "MW500",
   "date": "2027-01-13",
-  "scheduled_departure_unix": 1799822610,
-  "origin": "BOS",
-  "destination": "FLL",
+  "scheduled_departure_unix": 1799822580,
   "status": "scheduled",
-  "delay_minutes": 0,
   "pnrs": [
     {
       "pnr": "UKSPUL",
@@ -77,20 +74,27 @@
     },
     {
       "pnr": "RFQE9W",
-      "policyId": "NA",
+      "policyId": 260508,
       "policyholder": "NA",
-      "wallet": "NA",
+      "wallet": "CYEK2KMRXB6CPEJE4LKKFGQENUS5YMVEA6OY3BFN5OTTKTUHU3ETF6JFCU",
       "passenger": {
+        "name": "Luca Diaz",
         "fullName": "Luca Diaz",
-        "dateOfBirth": "1958-04-05",
-        "documentId": "PRFQE9W4",
-        "seat": "7A",
         "email": "luca.diaz4@gmail.com",
-        "phone": "+1-687-524-5153"
+        "phone": "+1-687-524-5153",
+        "phone_number": "+1-687-524-5153",
+        "date_of_birth": "1958-04-05",
+        "dateOfBirth": "1958-04-05",
+        "passport_number": "PRFQE9W4",
+        "documentId": "PRFQE9W4",
+        "address": null,
+        "seat": "7A",
+        "class": null,
+        "classType": null
       },
-      "nft_metadata_url": "NA",
-      "created_at": 1776024345,
-      "updated_at": 1776024345
+      "nft_metadata_url": "https://is.gd/R6nFRt",
+      "created_at": 1776260535,
+      "updated_at": 1776260535
     },
     {
       "pnr": "UF8ETS",
@@ -162,5 +166,5 @@
     }
   ],
   "created_at": 1776024345,
-  "updated_at": 1776024345
+  "updated_at": 1776260535
 }
