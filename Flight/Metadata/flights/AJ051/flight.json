@@ -1,0 +1,64 @@
+{
+  "flight_number": "AJ051",
+  "date": "2027-01-22",
+  "scheduled_departure_unix": 1800585854,
+  "origin": "BLR",
+  "destination": "SAN",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "BXGYTM",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Avery Reed",
+        "dateOfBirth": "1972-07-05",
+        "documentId": "PBXGYTM0",
+        "seat": "26D",
+        "email": "avery.reed0@icloud.com",
+        "phone": "+1-569-833-9853"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776460130,
+      "updated_at": 1776460130
+    },
+    {
+      "pnr": "PCXGWS",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Emerson Ellis",
+        "dateOfBirth": "1978-02-11",
+        "documentId": "PPCXGWS1",
+        "seat": "5C",
+        "email": "emerson.ellis1@icloud.com",
+        "phone": "+1-440-663-7712"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776460130,
+      "updated_at": 1776460130
+    },
+    {
+      "pnr": "36BW7S",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Maya Silva",
+        "dateOfBirth": "1966-08-02",
+        "documentId": "P36BW7S2",
+        "seat": "11D",
+        "email": "maya.silva2@gmail.com",
+        "phone": "+1-259-564-2476"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776460130,
+      "updated_at": 1776460130
+    }
+  ],
+  "created_at": 1776460130,
+  "updated_at": 1776460130
+}

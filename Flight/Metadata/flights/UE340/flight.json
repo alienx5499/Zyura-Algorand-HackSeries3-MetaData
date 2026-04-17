@@ -1,0 +1,30 @@
+{
+  "flight_number": "UE340",
+  "date": "2027-02-11",
+  "scheduled_departure_unix": 1802351724,
+  "origin": "BLR",
+  "destination": "SEA",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "VLUALD",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Riley Silva",
+        "dateOfBirth": "1971-09-04",
+        "documentId": "PVLUALD0",
+        "seat": "16C",
+        "email": "riley.silva0@gmail.com",
+        "phone": "+1-753-619-8020"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776460129,
+      "updated_at": 1776460129
+    }
+  ],
+  "created_at": 1776460129,
+  "updated_at": 1776460129
+}

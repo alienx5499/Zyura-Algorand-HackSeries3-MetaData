@@ -1,0 +1,98 @@
+{
+  "flight_number": "UB087",
+  "date": "2027-03-02",
+  "scheduled_departure_unix": 1803962618,
+  "origin": "BLR",
+  "destination": "SIN",
+  "status": "scheduled",
+  "delay_minutes": 0,
+  "pnrs": [
+    {
+      "pnr": "RH9H5Z",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Maya Campbell",
+        "dateOfBirth": "1958-12-12",
+        "documentId": "PRH9H5Z0",
+        "seat": "16D",
+        "email": "maya.campbell0@outlook.com",
+        "phone": "+1-746-879-4029"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776460128,
+      "updated_at": 1776460128
+    },
+    {
+      "pnr": "HEKY3V",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Morgan Patel",
+        "dateOfBirth": "1981-07-31",
+        "documentId": "PHEKY3V1",
+        "seat": "21D",
+        "email": "morgan.patel1@icloud.com",
+        "phone": "+1-293-237-0232"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776460128,
+      "updated_at": 1776460128
+    },
+    {
+      "pnr": "RG8EYK",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Parker Patel",
+        "dateOfBirth": "2002-04-17",
+        "documentId": "PRG8EYK2",
+        "seat": "16A",
+        "email": "parker.patel2@icloud.com",
+        "phone": "+1-374-255-8667"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776460128,
+      "updated_at": 1776460128
+    },
+    {
+      "pnr": "KKU88Z",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Iris Reed",
+        "dateOfBirth": "1989-04-13",
+        "documentId": "PKKU88Z3",
+        "seat": "22A",
+        "email": "iris.reed3@yahoo.com",
+        "phone": "+1-711-823-8184"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776460128,
+      "updated_at": 1776460128
+    },
+    {
+      "pnr": "37QNEP",
+      "policyId": "NA",
+      "policyholder": "NA",
+      "wallet": "NA",
+      "passenger": {
+        "fullName": "Avery Reed",
+        "dateOfBirth": "2004-12-21",
+        "documentId": "P37QNEP4",
+        "seat": "16B",
+        "email": "avery.reed4@gmail.com",
+        "phone": "+1-465-451-4400"
+      },
+      "nft_metadata_url": "NA",
+      "created_at": 1776460128,
+      "updated_at": 1776460128
+    }
+  ],
+  "created_at": 1776460128,
+  "updated_at": 1776460128
+}
