@@ -1,0 +1,36 @@
+# Deletes stale policy.json (+ policy.svg) that never completed purchase (PENDING, no nft_asset_id),
+# only when the file is older than MIN_AGE_MINUTES (default 24h) per last commit.
+# Dry-run locally first: node scripts/cleanup-pending-policies.mjs
+name: Cleanup pending policy metadata
+
+on:
+  schedule:
+    - cron: "0 4 * * *" # 04:00 UTC daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cleanup-pending-metadata
+  cancel-in-progress: false
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run cleanup
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPO: ${{ github.repository }}
+          GITHUB_BRANCH: ${{ github.ref_name }}
+          MIN_AGE_MINUTES: "1440"
+        run: node scripts/cleanup-pending-policies.mjs --execute
