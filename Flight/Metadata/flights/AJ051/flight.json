@@ -1,28 +1,32 @@
 {
   "flight_number": "AJ051",
   "date": "2027-01-22",
-  "scheduled_departure_unix": 1800585854,
-  "origin": "BLR",
-  "destination": "SAN",
+  "scheduled_departure_unix": 1800585840,
   "status": "scheduled",
-  "delay_minutes": 0,
   "pnrs": [
     {
       "pnr": "BXGYTM",
-      "policyId": "NA",
+      "policyId": 539301,
       "policyholder": "NA",
-      "wallet": "NA",
+      "wallet": "TXYIZ7VLASDLXTPRPIVVSAB7DMTYVM4RBYWW2C4PACNZOMZD2FDISOXMQU",
       "passenger": {
+        "name": "Avery Reed",
         "fullName": "Avery Reed",
-        "dateOfBirth": "1972-07-05",
-        "documentId": "PBXGYTM0",
-        "seat": "26D",
         "email": "avery.reed0@icloud.com",
-        "phone": "+1-569-833-9853"
+        "phone": "+1-569-833-9853",
+        "phone_number": "+1-569-833-9853",
+        "date_of_birth": "1972-07-05",
+        "dateOfBirth": "1972-07-05",
+        "passport_number": "PBXGYTM0",
+        "documentId": "PBXGYTM0",
+        "address": null,
+        "seat": "26D",
+        "class": null,
+        "classType": null
       },
-      "nft_metadata_url": "NA",
-      "created_at": 1776460130,
-      "updated_at": 1776460130
+      "nft_metadata_url": "https://is.gd/ModiyC",
+      "created_at": 1776539318,
+      "updated_at": 1776539318
     },
     {
       "pnr": "PCXGWS",
@@ -60,5 +64,5 @@
     }
   ],
   "created_at": 1776460130,
-  "updated_at": 1776460130
+  "updated_at": 1776539318
 }
