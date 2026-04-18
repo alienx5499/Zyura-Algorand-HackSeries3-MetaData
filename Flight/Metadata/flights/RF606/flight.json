@@ -1,30 +1,34 @@
 {
   "flight_number": "RF606",
   "date": "2026-11-12",
-  "scheduled_departure_unix": 1794511205,
-  "origin": "BWI",
-  "destination": "SAN",
+  "scheduled_departure_unix": 1794511200,
   "status": "scheduled",
-  "delay_minutes": 0,
   "pnrs": [
     {
       "pnr": "F5J5M3",
-      "policyId": "NA",
+      "policyId": 532826,
       "policyholder": "NA",
-      "wallet": "NA",
+      "wallet": "CYEK2KMRXB6CPEJE4LKKFGQENUS5YMVEA6OY3BFN5OTTKTUHU3ETF6JFCU",
       "passenger": {
+        "name": "Zoe Foster",
         "fullName": "Zoe Foster",
-        "dateOfBirth": "1965-12-17",
-        "documentId": "PF5J5M30",
-        "seat": "26A",
         "email": "zoe.foster0@example.com",
-        "phone": "+1-579-310-1469"
+        "phone": "+1-579-310-1469",
+        "phone_number": "+1-579-310-1469",
+        "date_of_birth": "1965-12-17",
+        "dateOfBirth": "1965-12-17",
+        "passport_number": "PF5J5M30",
+        "documentId": "PF5J5M30",
+        "address": null,
+        "seat": "26A",
+        "class": null,
+        "classType": null
       },
-      "nft_metadata_url": "NA",
-      "created_at": 1776024375,
-      "updated_at": 1776024375
+      "nft_metadata_url": "https://is.gd/14NgqS",
+      "created_at": 1776532845,
+      "updated_at": 1776532845
     }
   ],
   "created_at": 1776024375,
-  "updated_at": 1776024375
+  "updated_at": 1776532845
 }
