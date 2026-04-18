@@ -1,28 +1,32 @@
 {
   "flight_number": "BT459",
   "date": "2027-03-25",
-  "scheduled_departure_unix": 1805943061,
-  "origin": "CLT",
-  "destination": "SFO",
+  "scheduled_departure_unix": 1805943060,
   "status": "scheduled",
-  "delay_minutes": 0,
   "pnrs": [
     {
       "pnr": "GC3PED",
-      "policyId": "NA",
-      "policyholder": "NA",
-      "wallet": "NA",
+      "policyId": 547653,
+      "policyholder": "CYEK2KMRXB6CPEJE4LKKFGQENUS5YMVEA6OY3BFN5OTTKTUHU3ETF6JFCU",
+      "wallet": "CYEK2KMRXB6CPEJE4LKKFGQENUS5YMVEA6OY3BFN5OTTKTUHU3ETF6JFCU",
       "passenger": {
+        "name": "Parker Bennett",
         "fullName": "Parker Bennett",
-        "dateOfBirth": "1986-06-08",
-        "documentId": "PGC3PED0",
-        "seat": "2B",
         "email": "parker.bennett0@outlook.com",
-        "phone": "+1-488-625-7531"
+        "phone": "+1-488-625-7531",
+        "phone_number": "+1-488-625-7531",
+        "date_of_birth": "1986-06-08",
+        "dateOfBirth": "1986-06-08",
+        "passport_number": "PGC3PED0",
+        "documentId": "PGC3PED0",
+        "address": null,
+        "seat": "2B",
+        "class": null,
+        "classType": null
       },
-      "nft_metadata_url": "NA",
-      "created_at": 1776024334,
-      "updated_at": 1776024334
+      "nft_metadata_url": "https://is.gd/v1hDd3",
+      "created_at": 1776547669,
+      "updated_at": 1776547669
     },
     {
       "pnr": "YMS62A",
@@ -77,5 +81,5 @@
     }
   ],
   "created_at": 1776024334,
-  "updated_at": 1776024334
+  "updated_at": 1776547669
 }
