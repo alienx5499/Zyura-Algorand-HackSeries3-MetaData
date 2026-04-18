@@ -13,6 +13,10 @@
  *   GITHUB_BRANCH    — default: main
  *   NFT_METADATA_PREFIX — default: NFT/metadata
  *   MIN_AGE_MINUTES  — only delete drafts older than this (default: 1440 = 24h). Uses last git commit touching the file.
+ *   ZYURA_APP_ID / NEXT_PUBLIC_ZYURA_APP_ID — required with --execute: Algorand app id for box reads
+ *   ALGOD_URL / NEXT_PUBLIC_ALGOD_URL — default: https://testnet-api.algonode.cloud
+ *   ALGOD_TOKEN / NEXT_PUBLIC_ALGOD_TOKEN — optional (public algonode: empty)
+ *   SKIP_ONCHAIN_GUARD=1 — dangerous: delete draft metadata without checking pol_holder / pol_nft boxes
  */
 
 const DRY_RUN = !process.argv.includes("--execute");
@@ -27,6 +31,31 @@ const NFT_PREFIX = (
 ).replace(/\/$/, "");
 const MIN_AGE_MS =
   (Number(process.env.MIN_AGE_MINUTES) || 1440) * 60 * 1000;
+
+const SKIP_ONCHAIN_GUARD =
+  process.env.SKIP_ONCHAIN_GUARD === "1" ||
+  process.env.SKIP_ONCHAIN_GUARD === "true";
+
+const ZYURA_APP_ID_RAW = (
+  process.env.ZYURA_APP_ID ||
+  process.env.NEXT_PUBLIC_ZYURA_APP_ID ||
+  ""
+).trim();
+const ZYURA_APP_ID = ZYURA_APP_ID_RAW ? parseInt(ZYURA_APP_ID_RAW, 10) : 0;
+
+const ALGOD_URL = (
+  process.env.ALGOD_URL ||
+  process.env.NEXT_PUBLIC_ALGOD_URL ||
+  "https://testnet-api.algonode.cloud"
+)
+  .trim()
+  .replace(/\/$/, "");
+
+const ALGOD_TOKEN = (
+  process.env.ALGOD_TOKEN ||
+  process.env.NEXT_PUBLIC_ALGOD_TOKEN ||
+  ""
+).trim();
 
 const headers = {
   Authorization: `Bearer ${GITHUB_TOKEN}`,
@@ -62,6 +91,106 @@ function isUnconfirmedDraft(metadata) {
     if (v.includes("PENDING") && !v.includes("ACTIVE")) return true;
   }
   return false;
+}
+
+function encodeUint64BE(n) {
+  const b = Buffer.allocUnsafe(8);
+  b.writeBigUInt64BE(BigInt(n));
+  return b;
+}
+
+function policyBoxName(prefix, policyIdStr) {
+  const id = String(policyIdStr).trim();
+  if (!/^\d+$/.test(id)) return null;
+  return Buffer.concat([Buffer.from(prefix, "utf8"), encodeUint64BE(id)]);
+}
+
+/**
+ * @returns {Promise<"missing"|"present"|"error">}
+ */
+async function algodBoxPresence(appId, prefix, policyIdStr) {
+  const name = policyBoxName(prefix, policyIdStr);
+  if (!name) return "error";
+  const boxNameB64 = name.toString("base64");
+  const u = new URL(`${ALGOD_URL}/v2/applications/${appId}/box`);
+  u.searchParams.set("name", `b64:${boxNameB64}`);
+  try {
+    const res = await fetch(u.toString(), {
+      headers: ALGOD_TOKEN ? { "X-Algo-API-Token": ALGOD_TOKEN } : {},
+    });
+    if (res.status === 404) return "missing";
+    if (!res.ok) return "error";
+    const json = await res.json();
+    const vb = json?.value;
+    if (typeof vb !== "string" || !vb) return "missing";
+    const buf = Buffer.from(vb, "base64");
+    if (buf.length === 0) return "missing";
+    return "present";
+  } catch {
+    return "error";
+  }
+}
+
+/**
+ * pol_nft value is uint64; if box exists and asset id is non-zero, policy is finalized on-chain.
+ * @returns {Promise<"no"|"yes"|"error">}
+ */
+async function chainPolNftLinked(appId, policyIdStr) {
+  const name = policyBoxName("pol_nft", policyIdStr);
+  if (!name) return "error";
+  const boxNameB64 = name.toString("base64");
+  const u = new URL(`${ALGOD_URL}/v2/applications/${appId}/box`);
+  u.searchParams.set("name", `b64:${boxNameB64}`);
+  try {
+    const res = await fetch(u.toString(), {
+      headers: ALGOD_TOKEN ? { "X-Algo-API-Token": ALGOD_TOKEN } : {},
+    });
+    if (res.status === 404) return "no";
+    if (!res.ok) return "error";
+    const json = await res.json();
+    const vb = json?.value;
+    if (typeof vb !== "string" || !vb) return "no";
+    const buf = Buffer.from(vb, "base64");
+    if (buf.length < 8) return "no";
+    const assetId = buf.readBigUInt64BE(0);
+    return assetId > 0n ? "yes" : "no";
+  } catch {
+    return "error";
+  }
+}
+
+/**
+ * If the app has a policyholder row or linked NFT for this id, GitHub must stay in sync — do not delete.
+ * @returns {Promise<{ safeToDelete: boolean, reason: string }>}
+ */
+async function chainAllowsDeletingDraft(policyIdStr) {
+  if (!ZYURA_APP_ID || Number.isNaN(ZYURA_APP_ID)) {
+    return { safeToDelete: false, reason: "no ZYURA_APP_ID" };
+  }
+  const holder = await algodBoxPresence(ZYURA_APP_ID, "pol_holder", policyIdStr);
+  if (holder === "error") {
+    return { safeToDelete: false, reason: "algod pol_holder error" };
+  }
+  if (holder === "present") {
+    return { safeToDelete: false, reason: "on-chain pol_holder exists" };
+  }
+  const nft = await chainPolNftLinked(ZYURA_APP_ID, policyIdStr);
+  if (nft === "error") {
+    return { safeToDelete: false, reason: "algod pol_nft error" };
+  }
+  if (nft === "yes") {
+    return { safeToDelete: false, reason: "on-chain pol_nft linked" };
+  }
+  return { safeToDelete: true, reason: "no on-chain policy row" };
+}
+
+function resolvePolicyId(meta, jsonPath) {
+  const fromMeta = meta?.policy_id;
+  if (fromMeta != null && String(fromMeta).trim() !== "") {
+    return String(fromMeta).trim();
+  }
+  const m = jsonPath.match(/\/(\d+)\/policy\.json$/);
+  return m ? m[1] : "";
 }
 
 async function getJson(url) {
@@ -154,9 +283,26 @@ async function main() {
     process.exit(1);
   }
 
+  if (!DRY_RUN && !SKIP_ONCHAIN_GUARD) {
+    if (!ZYURA_APP_ID || Number.isNaN(ZYURA_APP_ID)) {
+      console.error(
+        "With --execute, set ZYURA_APP_ID or NEXT_PUBLIC_ZYURA_APP_ID for on-chain guard, or set SKIP_ONCHAIN_GUARD=1 (not recommended).",
+      );
+      process.exit(1);
+    }
+  }
+
   console.log(`Repo: ${GITHUB_REPO} @ ${GITHUB_BRANCH}`);
   console.log(`Prefix: ${NFT_PREFIX}/`);
   console.log(`Min age: ${MIN_AGE_MS / 60000} minutes since last commit to file`);
+  console.log(`Algod: ${ALGOD_URL}`);
+  if (SKIP_ONCHAIN_GUARD) {
+    console.warn("SKIP_ONCHAIN_GUARD: on-chain checks disabled.");
+  } else if (ZYURA_APP_ID) {
+    console.log(`Zyura app: ${ZYURA_APP_ID}`);
+  } else {
+    console.log("Zyura app: (not set — on-chain skip only in dry-run / with SKIP_ONCHAIN_GUARD)");
+  }
   console.log(`Mode: ${DRY_RUN ? "DRY-RUN (pass --execute to delete)" : "DELETE"}\n`);
 
   const paths = await listPolicyJsonPaths();
@@ -167,6 +313,8 @@ async function main() {
   let deleted = 0;
   let skippedYoung = 0;
   let skippedNotDraft = 0;
+  let skippedChain = 0;
+  let warnedDryRunNoApp = false;
 
   for (const jsonPath of paths) {
     await sleep(80);
@@ -208,13 +356,42 @@ async function main() {
       continue;
     }
 
+    const policyId = resolvePolicyId(meta, jsonPath);
+    if (!policyId) {
+      skippedChain++;
+      console.warn(`  Skip (no policy id): ${jsonPath}`);
+      continue;
+    }
+
+    if (!SKIP_ONCHAIN_GUARD) {
+      const appOk = ZYURA_APP_ID && !Number.isNaN(ZYURA_APP_ID);
+      if (appOk) {
+        await sleep(80);
+        const chain = await chainAllowsDeletingDraft(policyId);
+        if (!chain.safeToDelete) {
+          skippedChain++;
+          console.log(
+            `  Skip (chain): ${jsonPath} policy_id=${policyId} — ${chain.reason}`,
+          );
+          continue;
+        }
+      } else if (DRY_RUN) {
+        if (!warnedDryRunNoApp) {
+          console.warn(
+            "Dry-run: ZYURA_APP_ID not set — not querying algod (set it to match --execute behavior).",
+          );
+          warnedDryRunNoApp = true;
+        }
+      }
+    }
+
     eligible++;
     const svgPath = jsonPath.replace(/\/policy\.json$/, "/policy.svg");
     const svgFile = await getFileContent(svgPath).catch(() => null);
     await sleep(80);
 
     console.log(
-      `  ${DRY_RUN ? "[dry-run] would delete" : "Deleting"} draft ${jsonPath} (policy_id=${meta.policy_id ?? "?"})`,
+      `  ${DRY_RUN ? "[dry-run] would delete" : "Deleting"} draft ${jsonPath} (policy_id=${policyId})`,
     );
 
     if (!DRY_RUN) {
@@ -230,8 +407,12 @@ async function main() {
     }
   }
 
-  console.log(`\nDone. Unconfirmed drafts seen: ${draftRows}, past min-age: ${eligible}`);
-  console.log(`  Not draft: ${skippedNotDraft}, Too new: ${skippedYoung}`);
+  console.log(
+    `\nDone. Unconfirmed drafts seen: ${draftRows}, past min-age + chain-ok: ${eligible}`,
+  );
+  console.log(
+    `  Not draft: ${skippedNotDraft}, Too new: ${skippedYoung}, Skipped (chain/id): ${skippedChain}`,
+  );
   if (DRY_RUN) {
     console.log(`  Would remove (count): ${deleted} (re-run with --execute)`);
   } else {

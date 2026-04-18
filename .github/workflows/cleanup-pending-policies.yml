@@ -1,5 +1,6 @@
 # Deletes stale policy.json (+ policy.svg) that never completed purchase (PENDING, no nft_asset_id),
-# only when the file is older than MIN_AGE_MINUTES (default 24h) per last commit.
+# only when the file is older than MIN_AGE_MINUTES (default 24h) per last commit,
+# and only if algod shows no pol_holder / pol_nft for that policy id (set repo variable ZYURA_APP_ID).
 # Dry-run locally first: node scripts/cleanup-pending-policies.mjs
 name: Cleanup pending policy metadata
 
@@ -33,4 +34,6 @@ jobs:
           GITHUB_REPO: ${{ github.repository }}
           GITHUB_BRANCH: ${{ github.ref_name }}
           MIN_AGE_MINUTES: "1440"
+          ZYURA_APP_ID: ${{ vars.ZYURA_APP_ID }}
+          ALGOD_URL: ${{ vars.ALGOD_URL || 'https://testnet-api.algonode.cloud' }}
         run: node scripts/cleanup-pending-policies.mjs --execute
