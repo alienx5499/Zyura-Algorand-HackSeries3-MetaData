@@ -1,8 +1,7 @@
-# Deletes stale policy.json (+ policy.svg) that never completed purchase (PENDING, no nft_asset_id),
-# only when the file is older than MIN_AGE_MINUTES (default 24h) per last commit,
-# and only if algod shows no pol_holder / pol_nft for that policy id (set repo variable ZYURA_APP_ID).
-# Dry-run locally first: node scripts/cleanup-pending-policies.mjs
-name: Cleanup pending policy metadata
+# 1) Reconcile: PENDING policy.json on GitHub but pol_nft on-chain → ACTIVE + nft_asset_id; sync flight.json PNR row.
+# 2) Cleanup: delete old true-drafts (no on-chain row) past MIN_AGE_MINUTES.
+# Needs repo variable ZYURA_APP_ID. Dry-run: omit --execute on scripts locally.
+name: Reconcile and cleanup policy metadata
 
 on:
   schedule:
@@ -28,7 +27,16 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Run cleanup
+      - name: Reconcile pending metadata from chain
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPO: ${{ github.repository }}
+          GITHUB_BRANCH: ${{ github.ref_name }}
+          ZYURA_APP_ID: ${{ vars.ZYURA_APP_ID }}
+          ALGOD_URL: ${{ vars.ALGOD_URL || 'https://testnet-api.algonode.cloud' }}
+        run: node scripts/reconcile-pending-policies.mjs --execute
+
+      - name: Remove stale draft metadata
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPO: ${{ github.repository }}
