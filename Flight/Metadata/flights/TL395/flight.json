@@ -1,28 +1,32 @@
 {
   "flight_number": "TL395",
   "date": "2027-04-07",
-  "scheduled_departure_unix": 1807083043,
-  "origin": "SFO",
-  "destination": "LAX",
+  "scheduled_departure_unix": 1807083000,
   "status": "scheduled",
-  "delay_minutes": 0,
   "pnrs": [
     {
       "pnr": "CH94YU",
-      "policyId": "NA",
-      "policyholder": "NA",
-      "wallet": "NA",
+      "policyId": 551874,
+      "policyholder": "CYEK2KMRXB6CPEJE4LKKFGQENUS5YMVEA6OY3BFN5OTTKTUHU3ETF6JFCU",
+      "wallet": "CYEK2KMRXB6CPEJE4LKKFGQENUS5YMVEA6OY3BFN5OTTKTUHU3ETF6JFCU",
       "passenger": {
+        "name": "Ethan Reed",
         "fullName": "Ethan Reed",
-        "dateOfBirth": "1972-07-09",
-        "documentId": "PCH94YU0",
-        "seat": "30C",
         "email": "ethan.reed0@outlook.com",
-        "phone": "+1-873-606-0030"
+        "phone": "+1-873-606-0030",
+        "phone_number": "+1-873-606-0030",
+        "date_of_birth": "1972-07-09",
+        "dateOfBirth": "1972-07-09",
+        "passport_number": "PCH94YU0",
+        "documentId": "PCH94YU0",
+        "address": null,
+        "seat": "30C",
+        "class": null,
+        "classType": null
       },
-      "nft_metadata_url": "NA",
-      "created_at": 1776024399,
-      "updated_at": 1776024399
+      "nft_metadata_url": "https://is.gd/F4jZgE",
+      "created_at": 1776551890,
+      "updated_at": 1776551891
     },
     {
       "pnr": "JPWPWW",
@@ -77,5 +81,5 @@
     }
   ],
   "created_at": 1776024399,
-  "updated_at": 1776024399
+  "updated_at": 1776551891
 }
