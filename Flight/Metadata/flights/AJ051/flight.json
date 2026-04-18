@@ -47,22 +47,29 @@
     },
     {
       "pnr": "36BW7S",
-      "policyId": "NA",
-      "policyholder": "NA",
-      "wallet": "NA",
+      "policyId": 539954,
+      "policyholder": "TXYIZ7VLASDLXTPRPIVVSAB7DMTYVM4RBYWW2C4PACNZOMZD2FDISOXMQU",
+      "wallet": "TXYIZ7VLASDLXTPRPIVVSAB7DMTYVM4RBYWW2C4PACNZOMZD2FDISOXMQU",
       "passenger": {
+        "name": "Maya Silva",
         "fullName": "Maya Silva",
-        "dateOfBirth": "1966-08-02",
-        "documentId": "P36BW7S2",
-        "seat": "11D",
         "email": "maya.silva2@gmail.com",
-        "phone": "+1-259-564-2476"
+        "phone": "+1-259-564-2476",
+        "phone_number": "+1-259-564-2476",
+        "date_of_birth": "1966-08-02",
+        "dateOfBirth": "1966-08-02",
+        "passport_number": "P36BW7S2",
+        "documentId": "P36BW7S2",
+        "address": null,
+        "seat": "11D",
+        "class": null,
+        "classType": null
       },
-      "nft_metadata_url": "NA",
-      "created_at": 1776460130,
-      "updated_at": 1776460130
+      "nft_metadata_url": "https://is.gd/I50qMb",
+      "created_at": 1776539972,
+      "updated_at": 1776539972
     }
   ],
   "created_at": 1776460130,
-  "updated_at": 1776539318
+  "updated_at": 1776539972
 }
