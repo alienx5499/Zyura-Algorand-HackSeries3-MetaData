@@ -1,28 +1,32 @@
 {
   "flight_number": "CK513",
   "date": "2027-02-01",
-  "scheduled_departure_unix": 1801520341,
-  "origin": "DEN",
-  "destination": "BWI",
+  "scheduled_departure_unix": 1801520340,
   "status": "scheduled",
-  "delay_minutes": 0,
   "pnrs": [
     {
       "pnr": "R7L6DQ",
-      "policyId": "NA",
-      "policyholder": "NA",
-      "wallet": "NA",
+      "policyId": 609089,
+      "policyholder": "TXYIZ7VLASDLXTPRPIVVSAB7DMTYVM4RBYWW2C4PACNZOMZD2FDISOXMQU",
+      "wallet": "TXYIZ7VLASDLXTPRPIVVSAB7DMTYVM4RBYWW2C4PACNZOMZD2FDISOXMQU",
       "passenger": {
+        "name": "Mila Ellis",
         "fullName": "Mila Ellis",
-        "dateOfBirth": "1982-12-31",
-        "documentId": "PR7L6DQ0",
-        "seat": "30B",
         "email": "mila.ellis0@outlook.com",
-        "phone": "+1-782-685-3192"
+        "phone": "+1-782-685-3192",
+        "phone_number": "+1-782-685-3192",
+        "date_of_birth": "1982-12-31",
+        "dateOfBirth": "1982-12-31",
+        "passport_number": "PR7L6DQ0",
+        "documentId": "PR7L6DQ0",
+        "address": null,
+        "seat": "30B",
+        "class": null,
+        "classType": null
       },
-      "nft_metadata_url": "NA",
-      "created_at": 1776024381,
-      "updated_at": 1776024381
+      "nft_metadata_url": "https://is.gd/09DXkD",
+      "created_at": 1776609105,
+      "updated_at": 1776609105
     },
     {
       "pnr": "ZBXU83",
@@ -128,5 +132,5 @@
     }
   ],
   "created_at": 1776024381,
-  "updated_at": 1776024381
+  "updated_at": 1776609105
 }
