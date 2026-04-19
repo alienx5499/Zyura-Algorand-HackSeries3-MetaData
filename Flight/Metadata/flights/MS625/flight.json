@@ -1,28 +1,32 @@
 {
   "flight_number": "MS625",
   "date": "2026-06-17",
-  "scheduled_departure_unix": 1781733773,
-  "origin": "LAX",
-  "destination": "SLC",
+  "scheduled_departure_unix": 1781733720,
   "status": "scheduled",
-  "delay_minutes": 0,
   "pnrs": [
     {
       "pnr": "XQA52A",
-      "policyId": "NA",
-      "policyholder": "NA",
-      "wallet": "NA",
+      "policyId": 608219,
+      "policyholder": "CYEK2KMRXB6CPEJE4LKKFGQENUS5YMVEA6OY3BFN5OTTKTUHU3ETF6JFCU",
+      "wallet": "CYEK2KMRXB6CPEJE4LKKFGQENUS5YMVEA6OY3BFN5OTTKTUHU3ETF6JFCU",
       "passenger": {
+        "name": "Mila Walker",
         "fullName": "Mila Walker",
-        "dateOfBirth": "1957-02-28",
-        "documentId": "PXQA52A0",
-        "seat": "22E",
         "email": "mila.walker0@icloud.com",
-        "phone": "+1-747-449-3205"
+        "phone": "+1-747-449-3205",
+        "phone_number": "+1-747-449-3205",
+        "date_of_birth": "1957-02-28",
+        "dateOfBirth": "1957-02-28",
+        "passport_number": "PXQA52A0",
+        "documentId": "PXQA52A0",
+        "address": null,
+        "seat": "22E",
+        "class": null,
+        "classType": null
       },
-      "nft_metadata_url": "NA",
-      "created_at": 1776024427,
-      "updated_at": 1776024427
+      "nft_metadata_url": "https://is.gd/mBfZi7",
+      "created_at": 1776608236,
+      "updated_at": 1776608237
     },
     {
       "pnr": "7CDL7Y",
@@ -94,5 +98,5 @@
     }
   ],
   "created_at": 1776024427,
-  "updated_at": 1776024427
+  "updated_at": 1776608237
 }
