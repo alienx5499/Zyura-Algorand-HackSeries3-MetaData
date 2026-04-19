@@ -115,22 +115,29 @@
     },
     {
       "pnr": "AHK9VZ",
-      "policyId": "NA",
-      "policyholder": "NA",
-      "wallet": "NA",
+      "policyId": 609224,
+      "policyholder": "TXYIZ7VLASDLXTPRPIVVSAB7DMTYVM4RBYWW2C4PACNZOMZD2FDISOXMQU",
+      "wallet": "TXYIZ7VLASDLXTPRPIVVSAB7DMTYVM4RBYWW2C4PACNZOMZD2FDISOXMQU",
       "passenger": {
+        "name": "Riley Reed",
         "fullName": "Riley Reed",
-        "dateOfBirth": "1959-03-31",
-        "documentId": "PAHK9VZ6",
-        "seat": "7F",
         "email": "riley.reed6@example.com",
-        "phone": "+1-753-588-0298"
+        "phone": "+1-753-588-0298",
+        "phone_number": "+1-753-588-0298",
+        "date_of_birth": "1959-03-31",
+        "dateOfBirth": "1959-03-31",
+        "passport_number": "PAHK9VZ6",
+        "documentId": "PAHK9VZ6",
+        "address": null,
+        "seat": "7F",
+        "class": null,
+        "classType": null
       },
-      "nft_metadata_url": "NA",
-      "created_at": 1776024381,
-      "updated_at": 1776024381
+      "nft_metadata_url": "https://is.gd/VoMElo",
+      "created_at": 1776609262,
+      "updated_at": 1776609262
     }
   ],
   "created_at": 1776024381,
-  "updated_at": 1776609105
+  "updated_at": 1776609262
 }
