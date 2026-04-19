@@ -1,28 +1,32 @@
 {
   "flight_number": "VN809",
   "date": "2026-09-19",
-  "scheduled_departure_unix": 1789842452,
-  "origin": "DTW",
-  "destination": "BWI",
+  "scheduled_departure_unix": 1789842420,
   "status": "scheduled",
-  "delay_minutes": 0,
   "pnrs": [
     {
       "pnr": "MXJAU7",
-      "policyId": "NA",
-      "policyholder": "NA",
-      "wallet": "NA",
+      "policyId": 624038,
+      "policyholder": "CYEK2KMRXB6CPEJE4LKKFGQENUS5YMVEA6OY3BFN5OTTKTUHU3ETF6JFCU",
+      "wallet": "CYEK2KMRXB6CPEJE4LKKFGQENUS5YMVEA6OY3BFN5OTTKTUHU3ETF6JFCU",
       "passenger": {
+        "name": "Mila Bennett",
         "fullName": "Mila Bennett",
-        "dateOfBirth": "1979-01-15",
-        "documentId": "PMXJAU70",
-        "seat": "29D",
         "email": "mila.bennett0@gmail.com",
-        "phone": "+1-497-628-6180"
+        "phone": "+1-497-628-6180",
+        "phone_number": "+1-497-628-6180",
+        "date_of_birth": "1979-01-15",
+        "dateOfBirth": "1979-01-15",
+        "passport_number": "PMXJAU70",
+        "documentId": "PMXJAU70",
+        "address": null,
+        "seat": "29D",
+        "class": null,
+        "classType": null
       },
-      "nft_metadata_url": "NA",
-      "created_at": 1776024335,
-      "updated_at": 1776024335
+      "nft_metadata_url": "https://is.gd/21xKbE",
+      "created_at": 1776624054,
+      "updated_at": 1776624055
     },
     {
       "pnr": "DHHY2L",
@@ -179,5 +183,5 @@
     }
   ],
   "created_at": 1776024335,
-  "updated_at": 1776024335
+  "updated_at": 1776624055
 }
