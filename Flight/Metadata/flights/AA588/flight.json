@@ -1,11 +1,8 @@
 {
   "flight_number": "AA588",
   "date": "2026-07-31",
-  "scheduled_departure_unix": 1785456994,
-  "origin": "DFW",
-  "destination": "SFO",
+  "scheduled_departure_unix": 1785456960,
   "status": "scheduled",
-  "delay_minutes": 0,
   "pnrs": [
     {
       "pnr": "78SZVD",
@@ -128,20 +125,27 @@
     },
     {
       "pnr": "JYPE72",
-      "policyId": "NA",
-      "policyholder": "NA",
-      "wallet": "NA",
+      "policyId": 582197,
+      "policyholder": "TXYIZ7VLASDLXTPRPIVVSAB7DMTYVM4RBYWW2C4PACNZOMZD2FDISOXMQU",
+      "wallet": "TXYIZ7VLASDLXTPRPIVVSAB7DMTYVM4RBYWW2C4PACNZOMZD2FDISOXMQU",
       "passenger": {
+        "name": "Taylor Nguyen",
         "fullName": "Taylor Nguyen",
-        "dateOfBirth": "1962-02-19",
-        "documentId": "PJYPE727",
-        "seat": "11C",
         "email": "taylor.nguyen7@yahoo.com",
-        "phone": "+1-718-596-2849"
+        "phone": "+1-718-596-2849",
+        "phone_number": "+1-718-596-2849",
+        "date_of_birth": "1962-02-19",
+        "dateOfBirth": "1962-02-19",
+        "passport_number": "PJYPE727",
+        "documentId": "PJYPE727",
+        "address": null,
+        "seat": "11C",
+        "class": null,
+        "classType": null
       },
-      "nft_metadata_url": "NA",
-      "created_at": 1776024393,
-      "updated_at": 1776024393
+      "nft_metadata_url": "https://is.gd/fRJ4t4",
+      "created_at": 1776582218,
+      "updated_at": 1776582219
     },
     {
       "pnr": "G7FE66",
@@ -162,5 +166,5 @@
     }
   ],
   "created_at": 1776024393,
-  "updated_at": 1776024393
+  "updated_at": 1776582219
 }
