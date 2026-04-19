@@ -16,8 +16,8 @@
   "payout_at": null,
   "payout_at_unix": null,
   "nft_asset_id": 759057153,
-  "purchased_at": "2026-04-19T14:34:30.943Z",
-  "purchased_at_unix": 1776609270,
+  "purchased_at": "2026-04-19T14:35:46.867Z",
+  "purchased_at_unix": 1776609346,
   "attributes": [
     {
       "trait_type": "Status",
@@ -29,7 +29,7 @@
     },
     {
       "trait_type": "Purchased At",
-      "value": "2026-04-19T14:34:30.943Z"
+      "value": "2026-04-19T14:35:46.867Z"
     }
   ]
 }
